@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "kanji": "山",
+        "kun": [
+            "やま"
+        ],
+        "on": [
+            "サン"
+        ],
+        "trazos": 3,
+        "notas": "El primer trazo es el del medio.",
+        "traduccion": [
+            "Montaña"
+        ]
+    },
+    {
+        "id": 2,
+        "kanji": "川",
+        "kun": [
+            "かわ"
+        ],
+        "on": [
+            "セン"
+        ],
+        "trazos": 3,
+        "notas": "",
+        "traduccion": [
+            "Río"
+        ]
+    },
+    {
+        "id": 3,
+        "kanji": "田",
+        "kun": [
+            "た"
+        ],
+        "on": [
+            "デン"
+        ],
+        "trazos": 5,
+        "notas": "El tercer trazo es el vertical central.",
+        "traduccion": [
+            "Campo de arroz"
+        ]
+    }
+]
