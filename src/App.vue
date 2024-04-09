@@ -21,7 +21,7 @@ const kanjiStore = useKanjiStore();
 
 <style scoped>
 .boton {
-    height: 60px;
+    height: 120px;
     width: 60px;
 }
 </style>
