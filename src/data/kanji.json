@@ -457,5 +457,156 @@
             "Dividir",
             "Minuto"
         ]
+    },
+    {
+        "id": 31,
+        "kanji": "人",
+        "kun": [
+            "ひと"
+        ],
+        "on": [
+            "ジン"
+        ],
+        "trazos": 2,
+        "notas": "",
+        "significados": [
+            "Persona"
+        ]
+    },
+    {
+        "id": 32,
+        "kanji": "子",
+        "kun": [
+            "こ"
+        ],
+        "on": [
+            "シ"
+        ],
+        "trazos": 3,
+        "notas": "",
+        "significados": [
+            "Niño"
+        ]
+    },
+    {
+        "id": 33,
+        "kanji": "女",
+        "kun": [
+            "おんな"
+        ],
+        "on": [
+            "ジョ"
+        ],
+        "trazos": 3,
+        "notas": "El tercer trazo es el horizontal",
+        "significados": [
+            "Mujer"
+        ]
+    },
+    {
+        "id": 34,
+        "kanji": "男",
+        "kun": [
+            "おとこ"
+        ],
+        "on": [
+            "ダン"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Hombre"
+        ]
+    },
+    {
+        "id": 35,
+        "kanji": "目",
+        "kun": [
+            "め"
+        ],
+        "on": [
+            "モク"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Ojo"
+        ]
+    },
+    {
+        "id": 36,
+        "kanji": "口",
+        "kun": [
+            "くち"
+        ],
+        "on": [
+            "コウ"
+        ],
+        "trazos": 3,
+        "notas": "",
+        "significados": [
+            "Boca"
+        ]
+    },
+    {
+        "id": 37,
+        "kanji": "耳",
+        "kun": [
+            "みみ"
+        ],
+        "on": [
+            "ジ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Oreja"
+        ]
+    },
+    {
+        "id": 38,
+        "kanji": "手",
+        "kun": [
+            "て"
+        ],
+        "on": [
+            "シュ"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Mano"
+        ]
+    },
+    {
+        "id": 39,
+        "kanji": "足",
+        "kun": [
+            "あし"
+        ],
+        "on": [
+            "ソク"
+        ],
+        "trazos": 7,
+        "notas": "El sexto trazo es el gancho de la izquierda",
+        "significados": [
+            "Pierna",
+            "Pie"
+        ]
+    },
+    {
+        "id": 40,
+        "kanji": "力",
+        "kun": [
+            "ちから"
+        ],
+        "on": [
+            "リョク"
+        ],
+        "trazos": 2,
+        "notas": "",
+        "significados": [
+            "Fuerza"
+        ]
     }
 ]
