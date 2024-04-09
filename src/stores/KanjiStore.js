@@ -24,5 +24,7 @@ export const useKanjiStore = defineStore('KanjiStore', () => {
         }
     }
 
-    return {actual, siguiente, anterior}
+    return {posicion, actual, siguiente, anterior}
+}, {
+    persist: true,
 })
