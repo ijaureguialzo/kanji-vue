@@ -9,7 +9,12 @@ defineProps({
 <template>
     <div class="d-flex flex-column justify-content-center align-items-center px-3 text-center">
         <p title="Número" class="circulo bg-primary-subtle text-dark-emphasis">{{ tarjeta.id }}</p>
-        <p title="Kanji" class="japones" style="font-size: 1000%;">{{ tarjeta.kanji }}</p>
+        <p title="Kanji" class="japones" style="font-size: 1000%;">
+            <a class="link-dark link-underline-opacity-0 link-opacity-75-hover" target="_blank"
+               :href="`https://jisho.org/search/${ tarjeta.kanji }%20%23kanji`">
+                {{ tarjeta.kanji }}
+            </a>
+        </p>
         <p v-if="tarjeta.kun.length > 0" title="Kun" class="fs-3">
             <VisualizarArray :datos="tarjeta.kun"/>
         </p>
