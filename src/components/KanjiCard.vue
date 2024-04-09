@@ -12,7 +12,7 @@ defineProps({
         <p class="fs-3">{{ tarjeta.on }}</p>
         <p class="circulo bg-secondary text-light">{{ tarjeta.trazos }}</p>
         <p class="text-center">{{ tarjeta.notas }}</p>
-        <p class="fs-3">{{ tarjeta.traduccion }}</p>
+        <p class="fs-3">{{ tarjeta.significados }}</p>
     </div>
 </template>
 

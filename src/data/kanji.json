@@ -10,7 +10,7 @@
         ],
         "trazos": 3,
         "notas": "El primer trazo es el del medio",
-        "traduccion": [
+        "significados": [
             "Montaña"
         ]
     },
@@ -25,7 +25,7 @@
         ],
         "trazos": 3,
         "notas": "",
-        "traduccion": [
+        "significados": [
             "Río"
         ]
     },
@@ -40,7 +40,7 @@
         ],
         "trazos": 5,
         "notas": "El tercer trazo es el vertical central",
-        "traduccion": [
+        "significados": [
             "Campo de arroz"
         ]
     },
@@ -55,7 +55,7 @@
         ],
         "trazos": 4,
         "notas": "",
-        "traduccion": [
+        "significados": [
             "Sol",
             "Día"
         ]
@@ -71,7 +71,7 @@
         ],
         "trazos": 4,
         "notas": "",
-        "traduccion": [
+        "significados": [
             "Luna",
             "Mes"
         ]
@@ -87,7 +87,7 @@
         ],
         "trazos": 4,
         "notas": "El primer trazo es la gota izquierda y el segundo la derecha",
-        "traduccion": [
+        "significados": [
             "Fuego"
         ]
     },
@@ -102,7 +102,7 @@
         ],
         "trazos": 4,
         "notas": "El primer trazo es el vertical",
-        "traduccion": [
+        "significados": [
             "Agua"
         ]
     },
@@ -117,7 +117,7 @@
         ],
         "trazos": 4,
         "notas": "",
-        "traduccion": [
+        "significados": [
             "Árbol",
             "Madera"
         ]
@@ -133,7 +133,7 @@
         ],
         "trazos": 8,
         "notas": "El quinto trazo es el vertical",
-        "traduccion": [
+        "significados": [
             "Dinero",
             "Oro"
         ]
@@ -149,7 +149,7 @@
         ],
         "trazos": 3,
         "notas": "",
-        "traduccion": [
+        "significados": [
             "Tierra"
         ]
     }
