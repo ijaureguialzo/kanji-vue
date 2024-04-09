@@ -1,4 +1,5 @@
 import './assets/bootstrap.scss'
+import './assets/no-touch-zoom.css'
 import * as bootstrap from 'bootstrap'
 
 import { createApp } from 'vue'
