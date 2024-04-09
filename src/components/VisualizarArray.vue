@@ -6,8 +6,7 @@ defineProps({
 
 <template>
 <span v-for="(dato, index) of datos" :key="index">
-    <span class="mx-2" v-if="index > 0">·</span>
-    <span>{{ dato }}</span>
+    <span v-if="index > 0"> · </span>{{ dato }}
 </span>
 </template>
 
