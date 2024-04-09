@@ -608,5 +608,157 @@
         "significados": [
             "Fuerza"
         ]
+    },
+    {
+        "id": 41,
+        "kanji": "父",
+        "kun": [
+            "ちち"
+        ],
+        "on": [
+            "フ"
+        ],
+        "trazos": 4,
+        "notas": "El tercer trazo es el gancho hacia la izquierda",
+        "significados": [
+            "Padre"
+        ]
+    },
+    {
+        "id": 42,
+        "kanji": "母",
+        "kun": [
+            "はは"
+        ],
+        "on": [
+            "ボ"
+        ],
+        "trazos": 5,
+        "notas": "El quinto trazo es el horizontal",
+        "significados": [
+            "Madre"
+        ]
+    },
+    {
+        "id": 43,
+        "kanji": "先",
+        "kun": [
+            "さき"
+        ],
+        "on": [
+            "セン"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Anterior"
+        ]
+    },
+    {
+        "id": 44,
+        "kanji": "生",
+        "kun": [
+            "いきる"
+        ],
+        "on": [
+            "セイ"
+        ],
+        "trazos": 5,
+        "notas": "El tercer trazo es el vertical",
+        "significados": [
+            "Nacer",
+            "Vivir"
+        ]
+    },
+    {
+        "id": 45,
+        "kanji": "学",
+        "kun": [
+            "まなぶ"
+        ],
+        "on": [
+            "ガク"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Estudiar"
+        ]
+    },
+    {
+        "id": 46,
+        "kanji": "校",
+        "kun": [
+            ""
+        ],
+        "on": [
+            "コウ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Escuela"
+        ]
+    },
+    {
+        "id": 47,
+        "kanji": "友",
+        "kun": [
+            "とも"
+        ],
+        "on": [
+            "ユウ"
+        ],
+        "trazos": 4,
+        "notas": "El primer trazo es el horizontal",
+        "significados": [
+            "Amigo"
+        ]
+    },
+    {
+        "id": 48,
+        "kanji": "本",
+        "kun": [
+            "もと"
+        ],
+        "on": [
+            "ホン"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Libro"
+        ]
+    },
+    {
+        "id": 49,
+        "kanji": "毎",
+        "kun": [
+            ""
+        ],
+        "on": [
+            "マイ"
+        ],
+        "trazos": 6,
+        "notas": "El sexto trazo es el horizontal",
+        "significados": [
+            "Todos los ..."
+        ]
+    },
+    {
+        "id": 50,
+        "kanji": "何",
+        "kun": [
+            "なん"
+        ],
+        "on": [
+            ""
+        ],
+        "trazos": 7,
+        "notas": "El último trazo es el gancho vertical de la derecha",
+        "significados": [
+            "Qué",
+            "Cuál"
+        ]
     }
 ]
