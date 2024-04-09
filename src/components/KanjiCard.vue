@@ -22,7 +22,7 @@ defineProps({
             <VisualizarArray :datos="tarjeta.on"/>
         </p>
         <p title="Trazos" class="circulo bg-secondary-subtle text-dark-emphasis">{{ tarjeta.trazos }}</p>
-        <p class="small text-dark-emphasis">{{ tarjeta.notas }}</p>
+        <p v-if="tarjeta.notas" class="small text-dark-emphasis">{{ tarjeta.notas }}</p>
         <p class="fs-3">
             <VisualizarArray :datos="tarjeta.significados"/>
         </p>
