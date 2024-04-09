@@ -6,12 +6,12 @@ defineProps({
 
 <template>
     <div class="d-flex flex-column justify-content-center align-items-center px-3">
-        <p class="circulo bg-primary text-light">{{ tarjeta.id }}</p>
+        <p class="circulo bg-primary-subtle text-dark-emphasis">{{ tarjeta.id }}</p>
         <p class="japones" style="font-size: 1000%;">{{ tarjeta.kanji }}</p>
         <p class="fs-3">{{ tarjeta.kun }}</p>
         <p class="fs-3">{{ tarjeta.on }}</p>
-        <p class="circulo bg-secondary text-light">{{ tarjeta.trazos }}</p>
-        <p class="text-center">{{ tarjeta.notas }}</p>
+        <p class="circulo bg-secondary-subtle text-dark-emphasis">{{ tarjeta.trazos }}</p>
+        <p class="text-center small text-dark-emphasis">{{ tarjeta.notas }}</p>
         <p class="fs-3">{{ tarjeta.significados }}</p>
     </div>
 </template>

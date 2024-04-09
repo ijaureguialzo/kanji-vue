@@ -7,11 +7,11 @@ const kanjiStore = useKanjiStore();
 
 <template>
     <div class="d-flex flex-grow-1 col-12 col-sm-8 justify-content-between align-items-center">
-        <button class="btn btn-primary boton text-light flex-shrink-0" @click="kanjiStore.anterior()">
+        <button class="btn btn-primary boton text-light flex-shrink-0 fs-3" @click="kanjiStore.anterior()">
             <i class="bi bi-chevron-left"></i>
         </button>
         <KanjiCard :tarjeta="kanjiStore.actual()"/>
-        <button class="btn btn-primary boton text-light flex-shrink-0" @click="kanjiStore.siguiente()">
+        <button class="btn btn-primary boton text-light flex-shrink-0 fs-3" @click="kanjiStore.siguiente()">
             <i class="bi bi-chevron-right"></i>
         </button>
     </div>
