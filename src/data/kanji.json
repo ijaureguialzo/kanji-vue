@@ -9,7 +9,7 @@
             "サン"
         ],
         "trazos": 3,
-        "notas": "El primer trazo es el del medio.",
+        "notas": "El primer trazo es el del medio",
         "traduccion": [
             "Montaña"
         ]
@@ -39,9 +39,118 @@
             "デン"
         ],
         "trazos": 5,
-        "notas": "El tercer trazo es el vertical central.",
+        "notas": "El tercer trazo es el vertical central",
         "traduccion": [
             "Campo de arroz"
+        ]
+    },
+    {
+        "id": 4,
+        "kanji": "日",
+        "kun": [
+            "ひ"
+        ],
+        "on": [
+            "ニチ"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "traduccion": [
+            "Sol",
+            "Día"
+        ]
+    },
+    {
+        "id": 5,
+        "kanji": "月",
+        "kun": [
+            "つき"
+        ],
+        "on": [
+            "ゲツ"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "traduccion": [
+            "Luna",
+            "Mes"
+        ]
+    },
+    {
+        "id": 6,
+        "kanji": "火",
+        "kun": [
+            "ひ"
+        ],
+        "on": [
+            "カ"
+        ],
+        "trazos": 4,
+        "notas": "El primer trazo es la gota izquierda y el segundo la derecha",
+        "traduccion": [
+            "Fuego"
+        ]
+    },
+    {
+        "id": 7,
+        "kanji": "水",
+        "kun": [
+            "みず"
+        ],
+        "on": [
+            "スイ"
+        ],
+        "trazos": 4,
+        "notas": "El primer trazo es el vertical",
+        "traduccion": [
+            "Agua"
+        ]
+    },
+    {
+        "id": 8,
+        "kanji": "木",
+        "kun": [
+            "き"
+        ],
+        "on": [
+            "モク"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "traduccion": [
+            "Árbol",
+            "Madera"
+        ]
+    },
+    {
+        "id": 9,
+        "kanji": "金",
+        "kun": [
+            "かね"
+        ],
+        "on": [
+            "キン"
+        ],
+        "trazos": 8,
+        "notas": "El quinto trazo es el vertical",
+        "traduccion": [
+            "Dinero",
+            "Oro"
+        ]
+    },
+    {
+        "id": 10,
+        "kanji": "土",
+        "kun": [
+            "つち"
+        ],
+        "on": [
+            "ド"
+        ],
+        "trazos": 3,
+        "notas": "",
+        "traduccion": [
+            "Tierra"
         ]
     }
 ]
