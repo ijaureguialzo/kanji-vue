@@ -9,7 +9,7 @@
             "サン"
         ],
         "trazos": 3,
-        "notas": "El primer trazo es el del medio",
+        "notas": "El primer trazo es el vertical central",
         "significados": [
             "Montaña"
         ]
@@ -151,6 +151,311 @@
         "notas": "",
         "significados": [
             "Tierra"
+        ]
+    },
+    {
+        "id": 11,
+        "kanji": "一",
+        "kun": [
+            "ひとつ"
+        ],
+        "on": [
+            "イチ"
+        ],
+        "trazos": 1,
+        "notas": "",
+        "significados": [
+            "Uno"
+        ]
+    },
+    {
+        "id": 12,
+        "kanji": "ニ",
+        "kun": [
+            "ふたつ"
+        ],
+        "on": [
+            "ニ"
+        ],
+        "trazos": 2,
+        "notas": "",
+        "significados": [
+            "Dos"
+        ]
+    },
+    {
+        "id": 13,
+        "kanji": "三",
+        "kun": [
+            "みっつ"
+        ],
+        "on": [
+            "サン"
+        ],
+        "trazos": 3,
+        "notas": "",
+        "significados": [
+            "Tres"
+        ]
+    },
+    {
+        "id": 14,
+        "kanji": "四",
+        "kun": [
+            "よっつ"
+        ],
+        "on": [
+            "ヨン"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Cuatro"
+        ]
+    },
+    {
+        "id": 15,
+        "kanji": "五",
+        "kun": [
+            "いつつ"
+        ],
+        "on": [
+            "ゴ"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Cinco"
+        ]
+    },
+    {
+        "id": 16,
+        "kanji": "六",
+        "kun": [
+            "むっつ"
+        ],
+        "on": [
+            "ロク"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Seis"
+        ]
+    },
+    {
+        "id": 17,
+        "kanji": "七",
+        "kun": [
+            "ななつ"
+        ],
+        "on": [
+            "シチ"
+        ],
+        "trazos": 2,
+        "notas": "",
+        "significados": [
+            "Siete"
+        ]
+    },
+    {
+        "id": 18,
+        "kanji": "八",
+        "kun": [
+            "やっつ"
+        ],
+        "on": [
+            "ハチ"
+        ],
+        "trazos": 2,
+        "notas": "",
+        "significados": [
+            "Ocho"
+        ]
+    },
+    {
+        "id": 19,
+        "kanji": "九",
+        "kun": [
+            "ここのつ"
+        ],
+        "on": [
+            "キュウ"
+        ],
+        "trazos": 2,
+        "notas": "",
+        "significados": [
+            "Nueve"
+        ]
+    },
+    {
+        "id": 20,
+        "kanji": "十",
+        "kun": [
+            "とお"
+        ],
+        "on": [
+            "ジュウ"
+        ],
+        "trazos": 2,
+        "notas": "",
+        "significados": [
+            "Diez"
+        ]
+    },
+    {
+        "id": 21,
+        "kanji": "百",
+        "kun": [
+            ""
+        ],
+        "on": [
+            "ヒャク"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Cien"
+        ]
+    },
+    {
+        "id": 22,
+        "kanji": "千",
+        "kun": [
+            "ち"
+        ],
+        "on": [
+            "セン"
+        ],
+        "trazos": 3,
+        "notas": "",
+        "significados": [
+            "Mil"
+        ]
+    },
+    {
+        "id": 23,
+        "kanji": "万",
+        "kun": [
+            ""
+        ],
+        "on": [
+            "マン"
+        ],
+        "trazos": 3,
+        "notas": "El segundo trazo es el gancho de la derecha",
+        "significados": [
+            "Diez mil"
+        ]
+    },
+    {
+        "id": 24,
+        "kanji": "円",
+        "kun": [
+            "まる"
+        ],
+        "on": [
+            "エン"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Círculo",
+            "Yen"
+        ]
+    },
+    {
+        "id": 25,
+        "kanji": "年",
+        "kun": [
+            "とし"
+        ],
+        "on": [
+            "ネン"
+        ],
+        "trazos": 6,
+        "notas": "El sexto trazo es el vertical central",
+        "significados": [
+            "Edad",
+            "Año"
+        ]
+    },
+    {
+        "id": 26,
+        "kanji": "上",
+        "kun": [
+            "うえ"
+        ],
+        "on": [
+            "ジョウ"
+        ],
+        "trazos": 3,
+        "notas": "El primer trazo es el vertical",
+        "significados": [
+            "Encima"
+        ]
+    },
+    {
+        "id": 27,
+        "kanji": "下",
+        "kun": [
+            "した"
+        ],
+        "on": [
+            "カ"
+        ],
+        "trazos": 3,
+        "notas": "",
+        "significados": [
+            "Debajo"
+        ]
+    },
+    {
+        "id": 28,
+        "kanji": "中",
+        "kun": [
+            "なか"
+        ],
+        "on": [
+            "チュウ"
+        ],
+        "trazos": 4,
+        "notas": "El cuarto trazo es el vertical",
+        "significados": [
+            "Dentro"
+        ]
+    },
+    {
+        "id": 29,
+        "kanji": "半",
+        "kun": [
+            ""
+        ],
+        "on": [
+            "ハン"
+        ],
+        "trazos": 5,
+        "notas": "El quinto trazo es el vertical",
+        "significados": [
+            "Mitad"
+        ]
+    },
+    {
+        "id": 30,
+        "kanji": "分",
+        "kun": [
+            "わかる",
+            "わける"
+        ],
+        "on": [
+            "フン"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Entender",
+            "Dividir",
+            "Minuto"
         ]
     }
 ]
