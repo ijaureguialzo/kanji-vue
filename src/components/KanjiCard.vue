@@ -32,7 +32,7 @@ defineProps({
 <style scoped>
 @font-face {
     font-family: kyokasho;
-    src: url("@/assets/Kyokasho.ttc");
+    src: url("/Kyokasho.ttc");
 }
 
 .japones {
