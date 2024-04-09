@@ -754,5 +754,157 @@
             "Qué",
             "Cuál"
         ]
+    },
+    {
+        "id": 51,
+        "kanji": "前",
+        "kun": [
+            "まえ"
+        ],
+        "on": [
+            "ゼン"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Delante",
+            "Antes"
+        ]
+    },
+    {
+        "id": 52,
+        "kanji": "後",
+        "kun": [
+            "うしろ"
+        ],
+        "on": [
+            "ゴ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Detrás",
+            "Después"
+        ]
+    },
+    {
+        "id": 53,
+        "kanji": "外",
+        "kun": [
+            "そと"
+        ],
+        "on": [
+            "ガイ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Fuera"
+        ]
+    },
+    {
+        "id": 54,
+        "kanji": "左",
+        "kun": [
+            "ひだり"
+        ],
+        "on": [
+            "サ"
+        ],
+        "trazos": 5,
+        "notas": "El primer trazo es el horizontal",
+        "significados": [
+            "Izquierda"
+        ]
+    },
+    {
+        "id": 55,
+        "kanji": "右",
+        "kun": [
+            "みぎ"
+        ],
+        "on": [
+            "ウ"
+        ],
+        "trazos": 5,
+        "notas": "El primer trazo es el vertical",
+        "significados": [
+            "Derecha"
+        ]
+    },
+    {
+        "id": 56,
+        "kanji": "東",
+        "kun": [
+            "ひがし"
+        ],
+        "on": [
+            "トウ"
+        ],
+        "trazos": 8,
+        "notas": "El sexto trazo es el vertical",
+        "significados": [
+            "Este"
+        ]
+    },
+    {
+        "id": 57,
+        "kanji": "西",
+        "kun": [
+            "にし"
+        ],
+        "on": [
+            "サイ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Oeste"
+        ]
+    },
+    {
+        "id": 58,
+        "kanji": "南",
+        "kun": [
+            "みなみ"
+        ],
+        "on": [
+            "ナン"
+        ],
+        "trazos": 9,
+        "notas": "El último trazo es el vertical de abajo",
+        "significados": [
+            "Sur"
+        ]
+    },
+    {
+        "id": 59,
+        "kanji": "北",
+        "kun": [
+            "きた"
+        ],
+        "on": [
+            "ホク"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Norte"
+        ]
+    },
+    {
+        "id": 60,
+        "kanji": "名",
+        "kun": [
+            "な"
+        ],
+        "on": [
+            "メイ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Nombre"
+        ]
     }
 ]
