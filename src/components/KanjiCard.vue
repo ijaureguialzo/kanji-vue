@@ -1,4 +1,6 @@
 <script setup>
+import VisualizarArray from "@/components/VisualizarArray.vue";
+
 defineProps({
     tarjeta: Object,
 })
@@ -8,11 +10,17 @@ defineProps({
     <div class="d-flex flex-column justify-content-center align-items-center px-3">
         <p class="circulo bg-primary-subtle text-dark-emphasis">{{ tarjeta.id }}</p>
         <p class="japones" style="font-size: 1000%;">{{ tarjeta.kanji }}</p>
-        <p class="fs-3">{{ tarjeta.kun }}</p>
-        <p class="fs-3">{{ tarjeta.on }}</p>
+        <p class="fs-3">
+            <VisualizarArray :datos="tarjeta.kun"/>
+        </p>
+        <p class="fs-3">
+            <VisualizarArray :datos="tarjeta.on"/>
+        </p>
         <p class="circulo bg-secondary-subtle text-dark-emphasis">{{ tarjeta.trazos }}</p>
         <p class="text-center small text-dark-emphasis">{{ tarjeta.notas }}</p>
-        <p class="fs-3">{{ tarjeta.significados }}</p>
+        <p class="fs-3">
+            <VisualizarArray :datos="tarjeta.significados"/>
+        </p>
     </div>
 </template>
 
