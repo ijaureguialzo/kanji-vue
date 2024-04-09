@@ -1,8 +1,24 @@
 <script setup>
 import KanjiCard from "@/components/KanjiCard.vue";
 import { useKanjiStore } from '@/stores/KanjiStore.js';
+import { useKeypress } from "vue3-keypress";
 
 const kanjiStore = useKanjiStore();
+
+useKeypress({
+    keyEvent: "keypress",
+    keyBinds: [
+        {
+            keyCode: "space",
+            modifiers: ["shiftKey"],
+            success: kanjiStore.anterior,
+        },
+        {
+            keyCode: "space",
+            success: kanjiStore.siguiente,
+        },
+    ]
+})
 </script>
 
 <template>
