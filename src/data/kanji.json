@@ -857,7 +857,7 @@
             "サイ"
         ],
         "trazos": 6,
-        "notas": "",
+        "notas": "El cuarto trazo es el gancho izquierdo porque el cuadro de abajo se empieza antes",
         "significados": [
             "Oeste"
         ]
@@ -887,7 +887,7 @@
             "ホク"
         ],
         "trazos": 5,
-        "notas": "",
+        "notas": "El quinto trazo es el gancho largo de la derecha",
         "significados": [
             "Norte"
         ]
@@ -905,6 +905,758 @@
         "notas": "",
         "significados": [
             "Nombre"
+        ]
+    },
+    {
+        "id": 61,
+        "kanji": "牛",
+        "kun": [
+            "うし"
+        ],
+        "on": [
+            "ギュウ"
+        ],
+        "trazos": 4,
+        "notas": "El cuarto trazo es el vertical",
+        "significados": [
+            "Vaca"
+        ]
+    },
+    {
+        "id": 62,
+        "kanji": "馬",
+        "kun": [
+            "うま"
+        ],
+        "on": [
+            "バ"
+        ],
+        "trazos": 10,
+        "notas": "El tercer trazo es el vertical central",
+        "significados": [
+            "Caballo"
+        ]
+    },
+    {
+        "id": 63,
+        "kanji": "魚",
+        "kun": [
+            "さかな"
+        ],
+        "on": [
+            "ギョ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Pescado"
+        ]
+    },
+    {
+        "id": 64,
+        "kanji": "貝",
+        "kun": [
+            "かい"
+        ],
+        "on": [
+            "バイ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Marisco"
+        ]
+    },
+    {
+        "id": 65,
+        "kanji": "雨",
+        "kun": [
+            "あめ"
+        ],
+        "on": [
+            "ウ"
+        ],
+        "trazos": 8,
+        "notas": "El cuarto trazo es el vertical",
+        "significados": [
+            "Lluvia"
+        ]
+    },
+    {
+        "id": 66,
+        "kanji": "天",
+        "kun": [
+        ],
+        "on": [
+            "テン"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Cielo"
+        ]
+    },
+    {
+        "id": 67,
+        "kanji": "気",
+        "kun": [
+        ],
+        "on": [
+            "キ"
+        ],
+        "trazos": 6,
+        "notas": "El cuarto trazo es el gancho hacia la derecha",
+        "significados": [
+            "Espíritu"
+        ]
+    },
+    {
+        "id": 68,
+        "kanji": "車",
+        "kun": [
+            "くるま"
+        ],
+        "on": [
+            "シャ"
+        ],
+        "trazos": 7,
+        "notas": "El séptimo trazo es el vertical",
+        "significados": [
+            "Coche"
+        ]
+    },
+    {
+        "id": 69,
+        "kanji": "門",
+        "kun": [
+        ],
+        "on": [
+            "モン"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Portón"
+        ]
+    },
+    {
+        "id": 70,
+        "kanji": "午",
+        "kun": [
+        ],
+        "on": [
+            "ゴ"
+        ],
+        "trazos": 4,
+        "notas": "El cuarto trazo es el vertical",
+        "significados": [
+            "Mediodía"
+        ]
+    },
+    {
+        "id": 71,
+        "kanji": "大",
+        "kun": [
+            "おおきい"
+        ],
+        "on": [
+            "ダイ"
+        ],
+        "trazos": 3,
+        "notas": "",
+        "significados": [
+            "Grande"
+        ]
+    },
+    {
+        "id": 72,
+        "kanji": "小",
+        "kun": [
+            "ちいさい"
+        ],
+        "on": [
+            "ショウ"
+        ],
+        "trazos": 3,
+        "notas": "",
+        "significados": [
+            "Pequeño"
+        ]
+    },
+    {
+        "id": 73,
+        "kanji": "高",
+        "kun": [
+            "たかい"
+        ],
+        "on": [
+            "コウ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Caro",
+            "Alto"
+        ]
+    },
+    {
+        "id": 74,
+        "kanji": "安",
+        "kun": [
+            "やすい"
+        ],
+        "on": [
+            "アン"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Barato"
+        ]
+    },
+    {
+        "id": 75,
+        "kanji": "新",
+        "kun": [
+            "あたらしい"
+        ],
+        "on": [
+            "シン"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Nuevo"
+        ]
+    },
+    {
+        "id": 76,
+        "kanji": "古",
+        "kun": [
+            "ふるい"
+        ],
+        "on": [
+            "コ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Viejo"
+        ]
+    },
+    {
+        "id": 77,
+        "kanji": "長",
+        "kun": [
+            "ながい"
+        ],
+        "on": [
+            "チョウ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Largo",
+            "Jefe"
+        ]
+    },
+    {
+        "id": 78,
+        "kanji": "多",
+        "kun": [
+            "おおい"
+        ],
+        "on": [
+            "タ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Mucho"
+        ]
+    },
+    {
+        "id": 79,
+        "kanji": "少",
+        "kun": [
+            "すくない"
+        ],
+        "on": [
+            "ショウ"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Poco"
+        ]
+    },
+    {
+        "id": 80,
+        "kanji": "早",
+        "kun": [
+            "はやい"
+        ],
+        "on": [
+            "ソウ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Temprano"
+        ]
+    },
+    {
+        "id": 81,
+        "kanji": "行",
+        "kun": [
+            "いく"
+        ],
+        "on": [
+            "コウ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Ir"
+        ]
+    },
+    {
+        "id": 82,
+        "kanji": "来",
+        "kun": [
+            "くる"
+        ],
+        "on": [
+            "ライ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Venir"
+        ]
+    },
+    {
+        "id": 83,
+        "kanji": "食",
+        "kun": [
+            "たべる"
+        ],
+        "on": [
+            "ショク"
+        ],
+        "trazos": 9,
+        "notas": "El séptimo trazo es el gancho de la izquierda",
+        "significados": [
+            "Comer"
+        ]
+    },
+    {
+        "id": 84,
+        "kanji": "見",
+        "kun": [
+            "みる"
+        ],
+        "on": [
+            "ケン"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Ver"
+        ]
+    },
+    {
+        "id": 85,
+        "kanji": "入",
+        "kun": [
+            "はいる"
+        ],
+        "on": [
+            "ニュウ"
+        ],
+        "trazos": 2,
+        "notas": "",
+        "significados": [
+            "Entrar",
+            "Meter"
+        ]
+    },
+    {
+        "id": 86,
+        "kanji": "出",
+        "kun": [
+            "でる"
+        ],
+        "on": [
+            "シュツ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Salir",
+            "Sacar"
+        ]
+    },
+    {
+        "id": 87,
+        "kanji": "立",
+        "kun": [
+            "たつ"
+        ],
+        "on": [
+            "リツ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Estar de pie"
+        ]
+    },
+    {
+        "id": 88,
+        "kanji": "書",
+        "kun": [
+            "かく"
+        ],
+        "on": [
+            "ショ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Escribir"
+        ]
+    },
+    {
+        "id": 89,
+        "kanji": "言",
+        "kun": [
+            "いう"
+        ],
+        "on": [
+            "デン"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Decir"
+        ]
+    },
+    {
+        "id": 90,
+        "kanji": "飲",
+        "kun": [
+            "のむ"
+        ],
+        "on": [
+            "イン"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Beber"
+        ]
+    },
+    {
+        "id": 91,
+        "kanji": "話",
+        "kun": [
+            "はなす"
+        ],
+        "on": [
+            "ワ"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Hablar"
+        ]
+    },
+    {
+        "id": 92,
+        "kanji": "読",
+        "kun": [
+            "よむ"
+        ],
+        "on": [
+            "ドク"
+        ],
+        "trazos": 14,
+        "notas": "",
+        "significados": [
+            "Leer"
+        ]
+    },
+    {
+        "id": 93,
+        "kanji": "語",
+        "kun": [
+            "かたる"
+        ],
+        "on": [
+            "ゴ"
+        ],
+        "trazos": 14,
+        "notas": "",
+        "significados": [
+            "Palabra",
+            "Idioma"
+        ]
+    },
+    {
+        "id": 94,
+        "kanji": "間",
+        "kun": [
+            "あいだ"
+        ],
+        "on": [
+            "カン"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Entre A y B"
+        ]
+    },
+    {
+        "id": 95,
+        "kanji": "聞",
+        "kun": [
+            "きく"
+        ],
+        "on": [
+            "ブン"
+        ],
+        "trazos": 14,
+        "notas": "",
+        "significados": [
+            "Escuchar"
+        ]
+    },
+    {
+        "id": 96,
+        "kanji": "買",
+        "kun": [
+            "かう"
+        ],
+        "on": [
+            "バイ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Comprar"
+        ]
+    },
+    {
+        "id": 97,
+        "kanji": "休",
+        "kun": [
+            "やすむ"
+        ],
+        "on": [
+            "キュウ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Descansar"
+        ]
+    },
+    {
+        "id": 98,
+        "kanji": "時",
+        "kun": [
+            "とき"
+        ],
+        "on": [
+            "ジ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Tiempo"
+        ]
+    },
+    {
+        "id": 99,
+        "kanji": "週",
+        "kun": [
+        ],
+        "on": [
+            "シュウ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Semana"
+        ]
+    },
+    {
+        "id": 100,
+        "kanji": "道",
+        "kun": [
+            "みち"
+        ],
+        "on": [
+            "ドウ"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Calle",
+            "Carretera"
+        ]
+    },
+    {
+        "id": 101,
+        "kanji": "今",
+        "kun": [
+            "いま"
+        ],
+        "on": [
+            "コン"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Ahora"
+        ]
+    },
+    {
+        "id": 102,
+        "kanji": "会",
+        "kun": [
+            "あう"
+        ],
+        "on": [
+            "カイ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Quedar",
+            "Reunirse"
+        ]
+    },
+    {
+        "id": 103,
+        "kanji": "社",
+        "kun": [
+            "やしろ"
+        ],
+        "on": [
+            "シャ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Santuario",
+            "Empresa"
+        ]
+    },
+    {
+        "id": 104,
+        "kanji": "店",
+        "kun": [
+            "みせ"
+        ],
+        "on": [
+            "テン"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Tienda"
+        ]
+    },
+    {
+        "id": 105,
+        "kanji": "駅",
+        "kun": [
+        ],
+        "on": [
+            "エキ"
+        ],
+        "trazos": 14,
+        "notas": "El trazo once es el ángulo de arriba a la derecha y el trazo trece el gancho izquierdo de la \"R\"",
+        "significados": [
+            "Estación de tren"
+        ]
+    },
+    {
+        "id": 106,
+        "kanji": "花",
+        "kun": [
+            "はな"
+        ],
+        "on": [
+            "カ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Flor"
+        ]
+    },
+    {
+        "id": 107,
+        "kanji": "国",
+        "kun": [
+            "くに"
+        ],
+        "on": [
+            "コク"
+        ],
+        "trazos": 8,
+        "notas": "El cuarto trazo es el vertical del centro y el séptimo la gota",
+        "significados": [
+            "País"
+        ]
+    },
+    {
+        "id": 108,
+        "kanji": "白",
+        "kun": [
+            "しろい"
+        ],
+        "on": [
+            "ハク"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Blanco"
+        ]
+    },
+    {
+        "id": 109,
+        "kanji": "空",
+        "kun": [
+            "そら"
+        ],
+        "on": [
+            "クウ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Cielo",
+            "Vacío"
+        ]
+    },
+    {
+        "id": 110,
+        "kanji": "電",
+        "kun": [
+        ],
+        "on": [
+            "デン"
+        ],
+        "trazos": 13,
+        "notas": "El cuarto trazo es el vertical central y el trece el gancho hacia la derecha cruzando todo el cuadro",
+        "significados": [
+            "Electricidad"
         ]
     }
 ]
