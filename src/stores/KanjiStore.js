@@ -12,19 +12,25 @@ export const useKanjiStore = defineStore('KanjiStore', () => {
         return kanjis.value[posicion.value];
     }
 
-    function siguiente() {
-        if (posicion.value < kanjis.value.length - 1) {
-            posicion.value++;
+    function avanzar(n = 1) {
+        let nuevaPosicion = posicion.value + n;
+        if (nuevaPosicion < kanjis.value.length - 1) {
+            posicion.value = nuevaPosicion;
+        } else {
+            posicion.value = kanjis.value.length - 1;
         }
     }
 
-    function anterior() {
-        if (posicion.value > 0) {
-            posicion.value--;
+    function retroceder(n = 1) {
+        let nuevaPosicion = posicion.value - n;
+        if (nuevaPosicion > 0) {
+            posicion.value = nuevaPosicion;
+        } else {
+            posicion.value = 0;
         }
     }
 
-    return {posicion, actual, siguiente, anterior}
+    return {posicion, actual, avanzar, retroceder}
 }, {
     persist: true,
 })

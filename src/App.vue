@@ -11,11 +11,11 @@ useKeypress({
         {
             keyCode: "space",
             modifiers: ["shiftKey"],
-            success: kanjiStore.anterior,
+            success: kanjiStore.retroceder,
         },
         {
             keyCode: "space",
-            success: kanjiStore.siguiente,
+            success: kanjiStore.avanzar,
         },
     ]
 })
@@ -23,21 +23,38 @@ useKeypress({
 
 <template>
     <div class="d-flex flex-grow-1 col-12 col-sm-8 col-md-6 col-lg-4 justify-content-between align-items-center">
-        <button title="Anterior" class="btn btn-primary boton text-light flex-shrink-0 fs-3"
-                @click="kanjiStore.anterior()">
-            <i class="bi bi-chevron-left"></i>
-        </button>
+        <div class="d-flex flex-column">
+            <button title="Anterior" class="btn btn-primary rectangulo text-light flex-shrink-0 fs-3 mb-3"
+                    @click="kanjiStore.retroceder()">
+                <i class="bi bi-chevron-left"></i>
+            </button>
+            <button title="Anterior (-10)" class="btn btn-light cuadrado text-secondary flex-shrink-0 fs-3"
+                    @click="kanjiStore.retroceder(10)">
+                <i class="bi bi-chevron-double-left"></i>
+            </button>
+        </div>
         <KanjiCard :tarjeta="kanjiStore.actual()"/>
-        <button title="Siguiente" class="btn btn-primary boton text-light flex-shrink-0 fs-3"
-                @click="kanjiStore.siguiente()">
-            <i class="bi bi-chevron-right"></i>
-        </button>
+        <div class="d-flex flex-column">
+            <button title="Siguiente" class="btn btn-primary rectangulo text-light flex-shrink-0 fs-3 mb-3"
+                    @click="kanjiStore.avanzar()">
+                <i class="bi bi-chevron-right"></i>
+            </button>
+            <button title="Siguiente (+10)" class="btn btn-light cuadrado text-secondary flex-shrink-0 fs-3"
+                    @click="kanjiStore.avanzar(10)">
+                <i class="bi bi-chevron-double-right"></i>
+            </button>
+        </div>
     </div>
 </template>
 
 <style scoped>
-.boton {
+.rectangulo {
     height: 120px;
+    width: 60px;
+}
+
+.cuadrado {
+    height: 60px;
     width: 60px;
 }
 </style>
