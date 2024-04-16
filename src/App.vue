@@ -33,7 +33,7 @@ useKeypress({
                 <i class="bi bi-chevron-double-left"></i>
             </button>
         </div>
-        <KanjiCard :tarjeta="kanjiStore.actual()"/>
+        <KanjiCard :tarjeta="kanjiStore.actual"/>
         <div class="d-flex flex-column">
             <button title="Siguiente" class="btn btn-primary rectangulo text-light flex-shrink-0 fs-3 mb-3"
                     @click="kanjiStore.avanzar()">

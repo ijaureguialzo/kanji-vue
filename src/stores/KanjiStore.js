@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia';
-import { ref } from 'vue';
+import { computed, ref } from 'vue';
 
 import datos from '@/data/kanji.json';
 
@@ -8,9 +8,7 @@ export const useKanjiStore = defineStore('KanjiStore', () => {
     const kanjis = ref(datos);
     const posicion = ref(0);
 
-    function actual() {
-        return kanjis.value[posicion.value];
-    }
+    const actual = computed(() => kanjis.value[posicion.value]);
 
     function avanzar(n = 1) {
         let nuevaPosicion = posicion.value + n;
@@ -30,7 +28,7 @@ export const useKanjiStore = defineStore('KanjiStore', () => {
         }
     }
 
-    return {posicion, actual, avanzar, retroceder}
+    return {kanjis, posicion, actual, avanzar, retroceder}
 }, {
     persist: true,
 })

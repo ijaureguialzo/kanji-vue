@@ -10,3 +10,4 @@ Aprende Kanji con Vue.
 - [How do you disable viewport zooming on Mobile Safari?](https://stackoverflow.com/a/62165035)
 - [Vue js with GitHub Actions: A Comprehensive Tutorial](https://www.bacancytechnology.com/blog/vue-js-with-github-actions)
 - [Deploying a Static Site](https://vitejs.dev/guide/static-deploy.html)
+- [Pinia - Setup Stores](https://pinia.vuejs.org/core-concepts/#Setup-Stores)
