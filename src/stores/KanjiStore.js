@@ -1,7 +1,10 @@
 import { defineStore } from 'pinia';
 import { computed, ref } from 'vue';
 
-import datos from '@/data/kanji.json';
+import n5 from '@/data/kanji-n5.json';
+import n4 from '@/data/kanji-n4.json';
+
+const datos = n5.concat(n4);
 
 export const useKanjiStore = defineStore('KanjiStore', () => {
 
