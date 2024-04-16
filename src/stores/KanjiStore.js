@@ -8,7 +8,14 @@ export const useKanjiStore = defineStore('KanjiStore', () => {
     const kanjis = ref(datos);
     const posicion = ref(0);
 
-    const actual = computed(() => kanjis.value[posicion.value]);
+    const actual = computed(() => {
+        if (posicion.value < 0) {
+            posicion.value = 0;
+        } else if (posicion.value >= kanjis.value.length) {
+            posicion.value = kanjis.value.length - 1;
+        }
+        return kanjis.value[posicion.value];
+    });
 
     function avanzar(n = 1) {
         let nuevaPosicion = posicion.value + n;
