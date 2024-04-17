@@ -746,5 +746,303 @@
         "significados": [
             "Frontera"
         ]
+    },
+    {
+        "id": 161,
+        "kanji": "仕",
+        "kun": [
+            "つかえる"
+        ],
+        "on": [
+            "シ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Servir"
+        ]
+    },
+    {
+        "id": 162,
+        "kanji": "事",
+        "kun": [
+            "こと"
+        ],
+        "on": [
+            "ジ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Asunto"
+        ]
+    },
+    {
+        "id": 163,
+        "kanji": "銀",
+        "kun": [
+        ],
+        "on": [
+            "ギン"
+        ],
+        "trazos": 14,
+        "notas": "",
+        "significados": [
+            "Plata"
+        ]
+    },
+    {
+        "id": 164,
+        "kanji": "員",
+        "kun": [
+        ],
+        "on": [
+            "イン"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Miembro"
+        ]
+    },
+    {
+        "id": 165,
+        "kanji": "医",
+        "kun": [
+        ],
+        "on": [
+            "イ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Medicina"
+        ]
+    },
+    {
+        "id": 166,
+        "kanji": "者",
+        "kun": [
+            "もの"
+        ],
+        "on": [
+            "シャ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Persona"
+        ]
+    },
+    {
+        "id": 167,
+        "kanji": "働",
+        "kun": [
+            "はたらく"
+        ],
+        "on": [
+            "ドウ"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Trabajar"
+        ]
+    },
+    {
+        "id": 168,
+        "kanji": "屋",
+        "kun": [
+            "や"
+        ],
+        "on": [
+            "オク"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Tejado"
+        ]
+    },
+    {
+        "id": 169,
+        "kanji": "産",
+        "kun": [
+            "うむ"
+        ],
+        "on": [
+            "サン"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Producir"
+        ]
+    },
+    {
+        "id": 170,
+        "kanji": "業",
+        "kun": [
+            "わざ"
+        ],
+        "on": [
+            "ギョウ"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Destreza",
+            "Industria"
+        ]
+    },
+    {
+        "id": 171,
+        "kanji": "林",
+        "kun": [
+            "はやし"
+        ],
+        "on": [
+            "リン"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Arboleda"
+        ]
+    },
+    {
+        "id": 172,
+        "kanji": "森",
+        "kun": [
+            "もり"
+        ],
+        "on": [
+            "シン"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Bosque"
+        ]
+    },
+    {
+        "id": 173,
+        "kanji": "地",
+        "kun": [
+        ],
+        "on": [
+            "ジ",
+            "チ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Suelo"
+        ]
+    },
+    {
+        "id": 174,
+        "kanji": "池",
+        "kun": [
+            "いけ"
+        ],
+        "on": [
+            "チ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Estanque"
+        ]
+    },
+    {
+        "id": 175,
+        "kanji": "海",
+        "kun": [
+            "うみ"
+        ],
+        "on": [
+            "カイ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Mar"
+        ]
+    },
+    {
+        "id": 176,
+        "kanji": "洋",
+        "kun": [
+        ],
+        "on": [
+            "ヨウ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Océano",
+            "Occidente"
+        ]
+    },
+    {
+        "id": 177,
+        "kanji": "雪",
+        "kun": [
+            "ゆき"
+        ],
+        "on": [
+            "セツ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Nieve"
+        ]
+    },
+    {
+        "id": 178,
+        "kanji": "光",
+        "kun": [
+            "ひかり"
+        ],
+        "on": [
+            "コウ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Luz"
+        ]
+    },
+    {
+        "id": 179,
+        "kanji": "台",
+        "kun": [
+        ],
+        "on": [
+            "ダイ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Plataforma"
+        ]
+    },
+    {
+        "id": 180,
+        "kanji": "風",
+        "kun": [
+            "かぜ"
+        ],
+        "on": [
+            "フウ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Viento",
+            "Estilo"
+        ]
     }
 ]
