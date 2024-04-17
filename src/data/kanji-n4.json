@@ -145,5 +145,606 @@
         "significados": [
             "Pueblo"
         ]
+    },
+    {
+        "id": 121,
+        "kanji": "明",
+        "kun": [
+            "あかるい"
+        ],
+        "on": [
+            "メイ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Claro"
+        ]
+    },
+    {
+        "id": 122,
+        "kanji": "暗",
+        "kun": [
+            "くらい"
+        ],
+        "on": [
+            "アン"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Oscuro"
+        ]
+    },
+    {
+        "id": 123,
+        "kanji": "遠",
+        "kun": [
+            "とおい"
+        ],
+        "on": [
+            "エン"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Lejano"
+        ]
+    },
+    {
+        "id": 124,
+        "kanji": "近",
+        "kun": [
+            "ちかい"
+        ],
+        "on": [
+            "キン"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Cercano"
+        ]
+    },
+    {
+        "id": 125,
+        "kanji": "強",
+        "kun": [
+            "つよい"
+        ],
+        "on": [
+            "キョウ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Fuerte"
+        ]
+    },
+    {
+        "id": 126,
+        "kanji": "弱",
+        "kun": [
+            "よわい"
+        ],
+        "on": [
+            "ジャク"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Débil"
+        ]
+    },
+    {
+        "id": 127,
+        "kanji": "重",
+        "kun": [
+            "おもい"
+        ],
+        "on": [
+            "ジュウ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Pesado",
+            "Importante"
+        ]
+    },
+    {
+        "id": 128,
+        "kanji": "軽",
+        "kun": [
+            "かるい"
+        ],
+        "on": [
+            "ケイ"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Ligero"
+        ]
+    },
+    {
+        "id": 129,
+        "kanji": "太",
+        "kun": [
+            "ふとい"
+        ],
+        "on": [
+            "タイ"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Gordo"
+        ]
+    },
+    {
+        "id": 130,
+        "kanji": "細",
+        "kun": [
+            "ほそい"
+        ],
+        "on": [
+            "サイ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Flaco",
+            "Fino"
+        ]
+    },
+    {
+        "id": 131,
+        "kanji": "特",
+        "kun": [
+        ],
+        "on": [
+            "トク"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Especial"
+        ]
+    },
+    {
+        "id": 132,
+        "kanji": "別",
+        "kun": [
+            "わかれる"
+        ],
+        "on": [
+            "ベツ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Separar"
+        ]
+    },
+    {
+        "id": 133,
+        "kanji": "有",
+        "kun": [
+            "ある"
+        ],
+        "on": [
+            "ユウ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Haber"
+        ]
+    },
+    {
+        "id": 134,
+        "kanji": "便",
+        "kun": [
+            "たより"
+        ],
+        "on": [
+            "ビン"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Conveniencia",
+            "Correo postal"
+        ]
+    },
+    {
+        "id": 135,
+        "kanji": "利",
+        "kun": [
+        ],
+        "on": [
+            "リ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Beneficio"
+        ]
+    },
+    {
+        "id": 136,
+        "kanji": "不",
+        "kun": [
+        ],
+        "on": [
+            "フ"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "No ~"
+        ]
+    },
+    {
+        "id": 137,
+        "kanji": "切",
+        "kun": [
+            "きる"
+        ],
+        "on": [
+            "セツ"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Cortar"
+        ]
+    },
+    {
+        "id": 138,
+        "kanji": "元",
+        "kun": [
+            "もと"
+        ],
+        "on": [
+            "ゲン"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Origen"
+        ]
+    },
+    {
+        "id": 139,
+        "kanji": "好",
+        "kun": [
+            "すき"
+        ],
+        "on": [
+            "コウ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Gustar"
+        ]
+    },
+    {
+        "id": 140,
+        "kanji": "急",
+        "kun": [
+            "いそぐ"
+        ],
+        "on": [
+            "キュウ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Prisa",
+            "De repente"
+        ]
+    },
+    {
+        "id": 141,
+        "kanji": "低",
+        "kun": [
+            "ひくい"
+        ],
+        "on": [
+            "テイ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Bajo"
+        ]
+    },
+    {
+        "id": 142,
+        "kanji": "広",
+        "kun": [
+            "ひろい"
+        ],
+        "on": [
+            "コウ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Espacioso"
+        ]
+    },
+    {
+        "id": 143,
+        "kanji": "短",
+        "kun": [
+            "みじかい"
+        ],
+        "on": [
+            "タン"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Corto"
+        ]
+    },
+    {
+        "id": 144,
+        "kanji": "良",
+        "kun": [
+            "よい"
+        ],
+        "on": [
+            "リョウ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Bueno"
+        ]
+    },
+    {
+        "id": 145,
+        "kanji": "悪",
+        "kun": [
+            "わるい"
+        ],
+        "on": [
+            "アク"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Malo"
+        ]
+    },
+    {
+        "id": 146,
+        "kanji": "正",
+        "kun": [
+            "ただしい"
+        ],
+        "on": [
+            "セイ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Correcto"
+        ]
+    },
+    {
+        "id": 147,
+        "kanji": "変",
+        "kun": [
+            "かわる"
+        ],
+        "on": [
+            "ヘン"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Cambiar",
+            "Extraño"
+        ]
+    },
+    {
+        "id": 148,
+        "kanji": "赤",
+        "kun": [
+            "あかい"
+        ],
+        "on": [
+            "セキ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Rojo"
+        ]
+    },
+    {
+        "id": 149,
+        "kanji": "青",
+        "kun": [
+            "あおい"
+        ],
+        "on": [
+            "セイ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Azul"
+        ]
+    },
+    {
+        "id": 150,
+        "kanji": "黒",
+        "kun": [
+            "くろい"
+        ],
+        "on": [
+            "コク"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Negro"
+        ]
+    },
+    {
+        "id": 151,
+        "kanji": "映",
+        "kun": [
+            "うつす"
+        ],
+        "on": [
+            "エイ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Reflejar"
+        ]
+    },
+    {
+        "id": 152,
+        "kanji": "画",
+        "kun": [
+        ],
+        "on": [
+            "ガ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Imagen"
+        ]
+    },
+    {
+        "id": 153,
+        "kanji": "音",
+        "kun": [
+            "おと"
+        ],
+        "on": [
+            "オン"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Sonido"
+        ]
+    },
+    {
+        "id": 154,
+        "kanji": "楽",
+        "kun": [
+            "たのしい"
+        ],
+        "on": [
+            "ラク"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Divertido",
+            "Fácil"
+        ]
+    },
+    {
+        "id": 155,
+        "kanji": "歌",
+        "kun": [
+            "うた"
+        ],
+        "on": [
+            "カ"
+        ],
+        "trazos": 14,
+        "notas": "",
+        "significados": [
+            "Canción"
+        ]
+    },
+    {
+        "id": 156,
+        "kanji": "写",
+        "kun": [
+            "うつす"
+        ],
+        "on": [
+            "シャ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Copiar"
+        ]
+    },
+    {
+        "id": 157,
+        "kanji": "真",
+        "kun": [
+            "ま"
+        ],
+        "on": [
+            "シン"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Verdad"
+        ]
+    },
+    {
+        "id": 158,
+        "kanji": "旅",
+        "kun": [
+            "たび"
+        ],
+        "on": [
+            "リョ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Viaje"
+        ]
+    },
+    {
+        "id": 159,
+        "kanji": "世",
+        "kun": [
+            "よ"
+        ],
+        "on": [
+            "セ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Mundo"
+        ]
+    },
+    {
+        "id": 160,
+        "kanji": "界",
+        "kun": [
+        ],
+        "on": [
+            "カイ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Frontera"
+        ]
     }
 ]
