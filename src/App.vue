@@ -11,11 +11,11 @@ useKeypress({
         {
             keyCode: "space",
             modifiers: ["shiftKey"],
-            success: kanjiStore.retroceder,
+            success: () => kanjiStore.retroceder(),
         },
         {
             keyCode: "space",
-            success: kanjiStore.avanzar,
+            success: () => kanjiStore.avanzar(),
         },
     ]
 })
