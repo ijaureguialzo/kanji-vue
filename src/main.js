@@ -1,6 +1,7 @@
 import '@/assets/bootstrap.scss'
 import '@/assets/no-touch-zoom.css'
 import * as bootstrap from 'bootstrap'
+import '@/assets/darkmode.js'
 
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
