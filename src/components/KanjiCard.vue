@@ -1,16 +1,27 @@
 <script setup>
 import VisualizarArray from "@/components/VisualizarArray.vue";
+import { computed, reactive } from "vue";
 
 defineProps({
     tarjeta: Object,
 })
+
+const fuentes = reactive(['kyokasho', 'sans-serif', 'serif']);
+const fuenteActual = computed(() => fuentes[0]);
+
+function rotarFuentes() {
+    fuentes.unshift(fuentes.pop())
+}
 </script>
 
 <template>
     <div class="d-flex flex-column justify-content-center align-items-center px-3 text-center">
-        <p title="Número" class="circulo bg-primary-subtle text-dark-emphasis">{{ tarjeta.id }}</p>
+        <p title="Número" @click="rotarFuentes()" class="circulo bg-primary-subtle text-dark-emphasis">
+            {{ tarjeta.id }}
+        </p>
         <p title="Kanji" class="japones" style="font-size: 1000%;">
-            <a class="link-body-emphasis link-underline-opacity-0 link-opacity-75-hover" target="_blank"
+            <a class="link-body-emphasis link-underline-opacity-0 link-opacity-75-hover"
+               :style="{ 'font-family': fuenteActual }" target="_blank"
                :href="`https://jisho.org/search/${ tarjeta.kanji }%20%23kanji`">
                 {{ tarjeta.kanji }}
             </a>
@@ -36,7 +47,6 @@ defineProps({
 }
 
 .japones {
-    font-family: kyokasho, YuKyokasho, cursive;
     line-height: 100%;
 }
 
