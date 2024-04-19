@@ -28,13 +28,19 @@ Aprende Kanji con Vue.
     make build
     ```
 
-2. Arrancar el contenedor:
+2. Instalar las dependencias de Node.js:
+
+    ```shell
+    make install
+    ```
+
+3. Arrancar el contenedor:
 
     ```shell
     make start
     ```
 
-3. Acceder a [kanji-vue](http://localhost:5173).
+4. Acceder a [kanji-vue](http://localhost:5173).
 
 ## Referencias
 
