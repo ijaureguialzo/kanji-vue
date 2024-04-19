@@ -2,7 +2,39 @@
 
 Aprende Kanji con Vue.
 
-[Enlace a la aplicación](https://ijaureguialzo.github.io/kanji-vue/)
+[Enlace a la aplicación](https://ijaureguialzo.github.io/kanji-vue/) desplegada en GitHub Pages.
+
+## Prerrequisitos
+
+1. Instalar [Docker Desktop](https://www.docker.com/products/docker-desktop/).
+2. En Windows, instalar [Scoop](https://scoop.sh) usando PowerShell:
+
+    ```powershell
+    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+    Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+    ```
+
+   Y después instalar los comandos necesarios:
+
+    ```powershell
+    scoop install make
+    ```
+
+## Puesta en marcha
+
+1. Construir el contenedor donde se ejecuta la aplicación:
+
+    ```shell
+    make build
+    ```
+
+2. Arrancar el contenedor:
+
+    ```shell
+    make start
+    ```
+
+3. Acceder a [kanji-vue](http://localhost:5173).
 
 ## Referencias
 
