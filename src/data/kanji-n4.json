@@ -2383,5 +2383,602 @@
             "Sufijo de orden",
             "Gritar"
         ]
+    },
+    {
+        "id": 271,
+        "kanji": "交",
+        "kun": [
+            "まじわる"
+        ],
+        "on": [
+            "コウ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Cruzar"
+        ]
+    },
+    {
+        "id": 272,
+        "kanji": "通",
+        "kun": [
+            "とおる"
+        ],
+        "on": [
+            "ツウ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Atravesar",
+            "\"Commute\""
+        ]
+    },
+    {
+        "id": 273,
+        "kanji": "動",
+        "kun": [
+            "うごく"
+        ],
+        "on": [
+            "ドウ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Moverse"
+        ]
+    },
+    {
+        "id": 274,
+        "kanji": "乗",
+        "kun": [
+            "のる"
+        ],
+        "on": [
+            "ジョウ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Subirse"
+        ]
+    },
+    {
+        "id": 275,
+        "kanji": "降",
+        "kun": [
+            "おりる"
+        ],
+        "on": [
+            "コウ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Bajarse",
+            "Caer (lluvia)"
+        ]
+    },
+    {
+        "id": 276,
+        "kanji": "運",
+        "kun": [
+            "はこぶ"
+        ],
+        "on": [
+            "ウン"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Transportar",
+            "Suerte"
+        ]
+    },
+    {
+        "id": 277,
+        "kanji": "転",
+        "kun": [
+            "ころがる"
+        ],
+        "on": [
+            "テン"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Rotar"
+        ]
+    },
+    {
+        "id": 278,
+        "kanji": "帰",
+        "kun": [
+            "かえる"
+        ],
+        "on": [
+            "キ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Volver"
+        ]
+    },
+    {
+        "id": 279,
+        "kanji": "発",
+        "kun": [
+        ],
+        "on": [
+            "ハツ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Partir"
+        ]
+    },
+    {
+        "id": 280,
+        "kanji": "着",
+        "kun": [
+            "きる"
+        ],
+        "on": [
+            "チャク"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Vestir",
+            "Llegar"
+        ]
+    },
+    {
+        "id": 281,
+        "kanji": "漢",
+        "kun": [
+        ],
+        "on": [
+            "カン"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Dinastía Han"
+        ]
+    },
+    {
+        "id": 282,
+        "kanji": "字",
+        "kun": [
+        ],
+        "on": [
+            "ジ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Carácter"
+        ]
+    },
+    {
+        "id": 283,
+        "kanji": "文",
+        "kun": [
+            "ふみ"
+        ],
+        "on": [
+            "ブン"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Frase"
+        ]
+    },
+    {
+        "id": 284,
+        "kanji": "教",
+        "kun": [
+            "おしえる"
+        ],
+        "on": [
+            "キョウ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Enseñar"
+        ]
+    },
+    {
+        "id": 285,
+        "kanji": "勉",
+        "kun": [
+        ],
+        "on": [
+            "ベン"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Esforzarse"
+        ]
+    },
+    {
+        "id": 286,
+        "kanji": "習",
+        "kun": [
+            "ならう"
+        ],
+        "on": [
+            "シュウ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Aprender"
+        ]
+    },
+    {
+        "id": 287,
+        "kanji": "英",
+        "kun": [
+            "ひで"
+        ],
+        "on": [
+            "エイ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Superior"
+        ]
+    },
+    {
+        "id": 288,
+        "kanji": "考",
+        "kun": [
+            "かんがえる"
+        ],
+        "on": [
+            "コウ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Pensar"
+        ]
+    },
+    {
+        "id": 289,
+        "kanji": "研",
+        "kun": [
+            "とぐ"
+        ],
+        "on": [
+            "ケン"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Pulir"
+        ]
+    },
+    {
+        "id": 290,
+        "kanji": "究",
+        "kun": [
+        ],
+        "on": [
+            "キュウ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Investigar"
+        ]
+    },
+    {
+        "id": 291,
+        "kanji": "問",
+        "kun": [
+            "とう"
+        ],
+        "on": [
+            "モン"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Preguntar"
+        ]
+    },
+    {
+        "id": 292,
+        "kanji": "題",
+        "kun": [
+        ],
+        "on": [
+            "ダイ"
+        ],
+        "trazos": 18,
+        "notas": "",
+        "significados": [
+            "Título"
+        ]
+    },
+    {
+        "id": 293,
+        "kanji": "試",
+        "kun": [
+            "ためす"
+        ],
+        "on": [
+            "シ"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Intentar"
+        ]
+    },
+    {
+        "id": 294,
+        "kanji": "験",
+        "kun": [
+        ],
+        "on": [
+            "ケン"
+        ],
+        "trazos": 18,
+        "notas": "",
+        "significados": [
+            "Examinar"
+        ]
+    },
+    {
+        "id": 295,
+        "kanji": "質",
+        "kun": [
+        ],
+        "on": [
+            "シツ"
+        ],
+        "trazos": 15,
+        "notas": "",
+        "significados": [
+            "Calidad"
+        ]
+    },
+    {
+        "id": 296,
+        "kanji": "合",
+        "kun": [
+            "あう"
+        ],
+        "on": [
+            "ゴウ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Combinar"
+        ]
+    },
+    {
+        "id": 297,
+        "kanji": "答",
+        "kun": [
+            "こたえる"
+        ],
+        "on": [
+            "トウ"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Responder"
+        ]
+    },
+    {
+        "id": 298,
+        "kanji": "用",
+        "kun": [
+            "もらいる"
+        ],
+        "on": [
+            "ヨウ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Usar",
+            "Tarea"
+        ]
+    },
+    {
+        "id": 299,
+        "kanji": "紙",
+        "kun": [
+            "かみ"
+        ],
+        "on": [
+            "シ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Papel"
+        ]
+    },
+    {
+        "id": 300,
+        "kanji": "意",
+        "kun": [
+        ],
+        "on": [
+            "イ"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Intención"
+        ]
+    },
+    {
+        "id": 301,
+        "kanji": "引",
+        "kun": [
+            "ひく"
+        ],
+        "on": [
+            "イン"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Tirar (de algo)"
+        ]
+    },
+    {
+        "id": 302,
+        "kanji": "開",
+        "kun": [
+            "あける"
+        ],
+        "on": [
+            "カイ"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Abrir"
+        ]
+    },
+    {
+        "id": 303,
+        "kanji": "閉",
+        "kun": [
+            "しめる"
+        ],
+        "on": [
+            "ヘイ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Cerrar"
+        ]
+    },
+    {
+        "id": 304,
+        "kanji": "去",
+        "kun": [
+            "さる"
+        ],
+        "on": [
+            "キョ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Irse"
+        ]
+    },
+    {
+        "id": 305,
+        "kanji": "死",
+        "kun": [
+            "しぬ"
+        ],
+        "on": [
+            "シ"
+        ],
+        "trazos": 6,
+        "notas": "",
+        "significados": [
+            "Morir"
+        ]
+    },
+    {
+        "id": 306,
+        "kanji": "集",
+        "kun": [
+            "あつめる"
+        ],
+        "on": [
+            "シュウ"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Juntar",
+            "Reunirse"
+        ]
+    },
+    {
+        "id": 307,
+        "kanji": "知",
+        "kun": [
+            "しる"
+        ],
+        "on": [
+            "チ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Saber"
+        ]
+    },
+    {
+        "id": 308,
+        "kanji": "売",
+        "kun": [
+            "うる"
+        ],
+        "on": [
+            "バイ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Vender"
+        ]
+    },
+    {
+        "id": 309,
+        "kanji": "説",
+        "kun": [
+            "とく"
+        ],
+        "on": [
+            "セツ"
+        ],
+        "trazos": 14,
+        "notas": "",
+        "significados": [
+            "Explicar"
+        ]
+    },
+    {
+        "id": 310,
+        "kanji": "思",
+        "kun": [
+            "おもう"
+        ],
+        "on": [
+            "シ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Pensar"
+        ]
     }
 ]
