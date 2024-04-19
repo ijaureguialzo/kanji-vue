@@ -1044,5 +1044,305 @@
             "Viento",
             "Estilo"
         ]
+    },
+    {
+        "id": 181,
+        "kanji": "季",
+        "kun": [
+        ],
+        "on": [
+            "キ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Estación (del año)"
+        ]
+    },
+    {
+        "id": 182,
+        "kanji": "節",
+        "kun": [
+            "ふし"
+        ],
+        "on": [
+            "セツ"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Unión",
+            "Sección (de un libro)"
+        ]
+    },
+    {
+        "id": 183,
+        "kanji": "春",
+        "kun": [
+            "はる"
+        ],
+        "on": [
+            "シュン"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Primavera"
+        ]
+    },
+    {
+        "id": 184,
+        "kanji": "夏",
+        "kun": [
+            "なつ"
+        ],
+        "on": [
+            "カ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Verano"
+        ]
+    },
+    {
+        "id": 185,
+        "kanji": "秋",
+        "kun": [
+            "あき"
+        ],
+        "on": [
+            "シュウ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Otoño"
+        ]
+    },
+    {
+        "id": 186,
+        "kanji": "冬",
+        "kun": [
+            "ふゆ"
+        ],
+        "on": [
+            "トウ"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Invierno"
+        ]
+    },
+    {
+        "id": 187,
+        "kanji": "暑",
+        "kun": [
+            "あつい"
+        ],
+        "on": [
+            "ショ"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Caliente"
+        ]
+    },
+    {
+        "id": 188,
+        "kanji": "寒",
+        "kun": [
+            "さむい"
+        ],
+        "on": [
+            "カン"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Frío"
+        ]
+    },
+    {
+        "id": 189,
+        "kanji": "暖",
+        "kun": [
+            "あたたかい"
+        ],
+        "on": [
+            "ダン"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Templado"
+        ]
+    },
+    {
+        "id": 190,
+        "kanji": "涼",
+        "kun": [
+            "すずしい"
+        ],
+        "on": [
+            "リョウ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Fresco"
+        ]
+    },
+    {
+        "id": 191,
+        "kanji": "体",
+        "kun": [
+            "からだ"
+        ],
+        "on": [
+            "タイ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Cuerpo"
+        ]
+    },
+    {
+        "id": 192,
+        "kanji": "頭",
+        "kun": [
+            "あたま"
+        ],
+        "on": [
+            "ズ"
+        ],
+        "trazos": 16,
+        "notas": "",
+        "significados": [
+            "Cabeza"
+        ]
+    },
+    {
+        "id": 193,
+        "kanji": "顔",
+        "kun": [
+            "かお"
+        ],
+        "on": [
+        ],
+        "trazos": 18,
+        "notas": "",
+        "significados": [
+            "Cara"
+        ]
+    },
+    {
+        "id": 194,
+        "kanji": "首",
+        "kun": [
+            "くび"
+        ],
+        "on": [
+            "シュ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Cuello",
+            "Primero"
+        ]
+    },
+    {
+        "id": 195,
+        "kanji": "心",
+        "kun": [
+            "こころ"
+        ],
+        "on": [
+            "シン"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Corazón",
+            "Sentimientos"
+        ]
+    },
+    {
+        "id": 196,
+        "kanji": "声",
+        "kun": [
+            "こえ"
+        ],
+        "on": [
+            "セイ"
+        ],
+        "trazos": 7,
+        "notas": "",
+        "significados": [
+            "Voz"
+        ]
+    },
+    {
+        "id": 197,
+        "kanji": "病",
+        "kun": [
+            "やまい"
+        ],
+        "on": [
+            "ビョウ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Enfermedad"
+        ]
+    },
+    {
+        "id": 198,
+        "kanji": "薬",
+        "kun": [
+            "くすり"
+        ],
+        "on": [
+            "ヤク"
+        ],
+        "trazos": 16,
+        "notas": "",
+        "significados": [
+            "Medicamento"
+        ]
+    },
+    {
+        "id": 199,
+        "kanji": "科",
+        "kun": [
+        ],
+        "on": [
+            "カ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Categoría"
+        ]
+    },
+    {
+        "id": 200,
+        "kanji": "内",
+        "kun": [
+            "うち"
+        ],
+        "on": [
+            "ナイ"
+        ],
+        "trazos": 4,
+        "notas": "",
+        "significados": [
+            "Interior"
+        ]
     }
 ]
