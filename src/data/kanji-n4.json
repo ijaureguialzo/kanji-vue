@@ -935,7 +935,7 @@
             "チ"
         ],
         "trazos": 6,
-        "notas": "",
+        "notas": "El cuatro trazo es el gancho central y el quinto el trazo vertical",
         "significados": [
             "Suelo"
         ]
@@ -950,7 +950,7 @@
             "チ"
         ],
         "trazos": 6,
-        "notas": "",
+        "notas": "El cuatro trazo es el gancho central y el quinto el trazo vertical",
         "significados": [
             "Estanque"
         ]
@@ -965,7 +965,7 @@
             "カイ"
         ],
         "trazos": 9,
-        "notas": "",
+        "notas": "El último trazo es el horizontal",
         "significados": [
             "Mar"
         ]
@@ -979,7 +979,7 @@
             "ヨウ"
         ],
         "trazos": 9,
-        "notas": "",
+        "notas": "El último trazo es el vertical",
         "significados": [
             "Océano",
             "Occidente"
@@ -995,7 +995,7 @@
             "セツ"
         ],
         "trazos": 11,
-        "notas": "",
+        "notas": "El cuarto trazo es el vertical",
         "significados": [
             "Nieve"
         ]
@@ -1010,7 +1010,7 @@
             "コウ"
         ],
         "trazos": 6,
-        "notas": "",
+        "notas": "El primer trazo es el vertical",
         "significados": [
             "Luz"
         ]
@@ -1039,7 +1039,7 @@
             "フウ"
         ],
         "trazos": 9,
-        "notas": "",
+        "notas": "El séptimo trazo es el vertical",
         "significados": [
             "Viento",
             "Estilo"
@@ -1069,7 +1069,7 @@
             "セツ"
         ],
         "trazos": 13,
-        "notas": "",
+        "notas": "El cuarto trazo es el gancho de arriba a la derecha; el décimo el gancho de abajo a la izquierda y el trece, el vertical",
         "significados": [
             "Unión",
             "Sección (de un libro)"
@@ -1085,7 +1085,7 @@
             "シュン"
         ],
         "trazos": 9,
-        "notas": "",
+        "notas": "El cuarto trazo es el gancho largo",
         "significados": [
             "Primavera"
         ]
@@ -1145,7 +1145,7 @@
             "ショ"
         ],
         "trazos": 12,
-        "notas": "",
+        "notas": "El octavo trazo es el gancho que cruza",
         "significados": [
             "Caliente"
         ]
@@ -1160,7 +1160,7 @@
             "カン"
         ],
         "trazos": 12,
-        "notas": "",
+        "notas": "El cuarto trazo es el horizontal, seguido de los dos verticales",
         "significados": [
             "Frío"
         ]
@@ -1175,7 +1175,7 @@
             "ダン"
         ],
         "trazos": 13,
-        "notas": "",
+        "notas": "El trazo once es el gancho",
         "significados": [
             "Templado"
         ]
