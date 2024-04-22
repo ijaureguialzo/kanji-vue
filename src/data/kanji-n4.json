@@ -1265,7 +1265,7 @@
             "シン"
         ],
         "trazos": 4,
-        "notas": "",
+        "notas": "El primer trazo es la gota de la izquierda",
         "significados": [
             "Corazón",
             "Sentimientos"
@@ -1281,7 +1281,7 @@
             "セイ"
         ],
         "trazos": 7,
-        "notas": "",
+        "notas": "El séptimo trazo es el gancho de la izquierda",
         "significados": [
             "Voz"
         ]
@@ -1296,7 +1296,7 @@
             "ビョウ"
         ],
         "trazos": 10,
-        "notas": "",
+        "notas": "El cuarto trazo es la gota de la izquierda y el octavo el gancho en ángulo recto",
         "significados": [
             "Enfermedad"
         ]
@@ -1311,7 +1311,7 @@
             "ヤク"
         ],
         "trazos": 16,
-        "notas": "",
+        "notas": "El primer trazo es el horizontal y el once la gota de arriba a la derecha",
         "significados": [
             "Medicamento"
         ]
@@ -1325,7 +1325,7 @@
             "カ"
         ],
         "trazos": 9,
-        "notas": "",
+        "notas": "El octavo trazo es el horizontal",
         "significados": [
             "Categoría"
         ]
@@ -1340,7 +1340,7 @@
             "ナイ"
         ],
         "trazos": 4,
-        "notas": "",
+        "notas": "El segundo trazo es el ángulo recto",
         "significados": [
             "Interior"
         ]
@@ -1370,7 +1370,7 @@
             "チュウ"
         ],
         "trazos": 9,
-        "notas": "",
+        "notas": "El tercer trazo es el gancho de la izquierda",
         "significados": [
             "Mediodía"
         ]
@@ -1429,7 +1429,7 @@
             "バン"
         ],
         "trazos": 12,
-        "notas": "",
+        "notas": "El noveno trazo es el vertical central",
         "significados": [
             "Noche"
         ]
@@ -1458,7 +1458,7 @@
             "ヨウ"
         ],
         "trazos": 18,
-        "notas": "",
+        "notas": "El trazo catorce es el horizontal de arriba y el quince el vertical central",
         "significados": [
             "Día de la semana"
         ]
@@ -1486,7 +1486,7 @@
             "ド"
         ],
         "trazos": 9,
-        "notas": "",
+        "notas": "El cuarto trazo es la línea horizontal",
         "significados": [
             "Grado",
             "Frecuencia"
