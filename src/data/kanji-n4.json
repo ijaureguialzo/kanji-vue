@@ -1502,7 +1502,7 @@
             "シ"
         ],
         "trazos": 4,
-        "notas": "",
+        "notas": "El tercer trazo es el vertical de la izquierda",
         "significados": [
             "Parar"
         ]
@@ -1517,7 +1517,7 @@
             "ホ"
         ],
         "trazos": 8,
-        "notas": "",
+        "notas": "El tercer trazo es el vertical de la izquierda",
         "significados": [
             "Andar"
         ]
@@ -1547,7 +1547,7 @@
             "キ"
         ],
         "trazos": 10,
-        "notas": "",
+        "notas": "El octavo trazo es el ángulo recto de arriba a la derecha",
         "significados": [
             "Levantarse"
         ]
@@ -1562,7 +1562,7 @@
             "ジ"
         ],
         "trazos": 9,
-        "notas": "",
+        "notas": "El segundo trazo es el gancho vertical",
         "significados": [
             "Tener"
         ]
@@ -1592,7 +1592,7 @@
             "シャク"
         ],
         "trazos": 10,
-        "notas": "",
+        "notas": "El tercer trazo es el horizontal",
         "significados": [
             "Tomar prestado"
         ]
@@ -1607,7 +1607,7 @@
             "タイ"
         ],
         "trazos": 12,
-        "notas": "",
+        "notas": "El cuarto trazo es el gancho",
         "significados": [
             "Prestar"
         ]
@@ -1653,7 +1653,7 @@
             "カ"
         ],
         "trazos": 10,
-        "notas": "",
+        "notas": "El sexto trazo es el gancho",
         "significados": [
             "Casa",
             "Hogar"
@@ -1668,7 +1668,7 @@
             "ゾク"
         ],
         "trazos": 11,
-        "notas": "",
+        "notas": "El noveno trazo es el horizontal",
         "significados": [
             "Tribu"
         ]
@@ -1728,7 +1728,7 @@
             "リョウ"
         ],
         "trazos": 6,
-        "notas": "",
+        "notas": "El cuarto trazo es el vertical central",
         "significados": [
             "Ambos"
         ]
@@ -1758,7 +1758,7 @@
             "ダイ"
         ],
         "trazos": 7,
-        "notas": "",
+        "notas": "El sexto trazo es el vertical",
         "significados": [
             "Hermano menor"
         ]
@@ -1773,7 +1773,7 @@
             "シ"
         ],
         "trazos": 8,
-        "notas": "Se pronuncia ané",
+        "notas": "El séptimo trazo es el ángulo recto. Se pronuncia \"ané\"",
         "significados": [
             "Hermana mayor"
         ]
@@ -1787,8 +1787,8 @@
         "on": [
             "マイ"
         ],
-        "trazos": 0,
-        "notas": "8",
+        "trazos": 8,
+        "notas": "El sexto trazo es el vertical",
         "significados": [
             "Hermana menor"
         ]
