@@ -1832,7 +1832,7 @@
             "シュ"
         ],
         "trazos": 5,
-        "notas": "",
+        "notas": "El tercer trazo es el vertical",
         "significados": [
             "Principal",
             "Señor"
@@ -1848,7 +1848,7 @@
             "ショク"
         ],
         "trazos": 6,
-        "notas": "",
+        "notas": "El cuarto trazo es el vertical central",
         "significados": [
             "Color"
         ]
@@ -1863,7 +1863,7 @@
             "ケイ"
         ],
         "trazos": 7,
-        "notas": "",
+        "notas": "El segundo trazo es el horizontal",
         "significados": [
             "Forma"
         ]
@@ -1892,7 +1892,7 @@
             "ミン"
         ],
         "trazos": 5,
-        "notas": "",
+        "notas": "El tercer trazo es el gancho izquierdo",
         "significados": [
             "Gente"
         ]
@@ -1906,7 +1906,7 @@
             "フク"
         ],
         "trazos": 8,
-        "notas": "",
+        "notas": "El sexto trazo es el vertical",
         "significados": [
             "Ropa"
         ]
@@ -1951,7 +1951,7 @@
             "マイ"
         ],
         "trazos": 6,
-        "notas": "",
+        "notas": "El tercer trazo es el horizontal",
         "significados": [
             "Arroz"
         ]
@@ -1965,7 +1965,7 @@
             "リョウ"
         ],
         "trazos": 10,
-        "notas": "",
+        "notas": "El tercer y noveno trazo son los horizontales",
         "significados": [
             "Medir",
             "Material"
@@ -1980,7 +1980,7 @@
             "リ"
         ],
         "trazos": 11,
-        "notas": "",
+        "notas": "El segundo y noveno trazo son los verticales",
         "significados": [
             "Razón"
         ]
@@ -1994,7 +1994,7 @@
             "ニク"
         ],
         "trazos": 6,
-        "notas": "",
+        "notas": "El tercer trazo es el gancho superior",
         "significados": [
             "Carne"
         ]
@@ -2009,7 +2009,7 @@
             "チョウ"
         ],
         "trazos": 11,
-        "notas": "",
+        "notas": "El segundo trazo es el vertical",
         "significados": [
             "Pájaro"
         ]
@@ -2024,7 +2024,7 @@
             "ヤ"
         ],
         "trazos": 11,
-        "notas": "",
+        "notas": "El quinto trazo es el vertical",
         "significados": [
             "Campo",
             "Silvestre"
@@ -2040,7 +2040,7 @@
             "サイ"
         ],
         "trazos": 11,
-        "notas": "",
+        "notas": "El primer trazo es el horizontal",
         "significados": [
             "Verdura"
         ]
@@ -2054,7 +2054,7 @@
             "チャ"
         ],
         "trazos": 9,
-        "notas": "",
+        "notas": "El primer trazo es el horizontal y el séptimo el vertical",
         "significados": [
             "Té"
         ]
@@ -2069,7 +2069,7 @@
             "ハン"
         ],
         "trazos": 12,
-        "notas": "",
+        "notas": "El séptimo trazo es el gancho izquierdo y el noveno el horizontal",
         "significados": [
             "Arroz cocido",
             "Comida"
@@ -2085,7 +2085,7 @@
             "ミ"
         ],
         "trazos": 8,
-        "notas": "",
+        "notas": "El sexto trazo es el vertical",
         "significados": [
             "Sabor"
         ]
@@ -2100,7 +2100,7 @@
             "ダイ"
         ],
         "trazos": 5,
-        "notas": "",
+        "notas": "El cuarto trazo es el gancho",
         "significados": [
             "Sustituir",
             "Generación"
@@ -2116,7 +2116,7 @@
             "シ"
         ],
         "trazos": 8,
-        "notas": "",
+        "notas": "El séptimo trazo es el gancho",
         "significados": [
             "Usar"
         ]
@@ -2131,7 +2131,7 @@
             "サク"
         ],
         "trazos": 7,
-        "notas": "",
+        "notas": "El quinto trazo es el vertical",
         "significados": [
             "Hacer"
         ]
@@ -2146,7 +2146,7 @@
             "カ"
         ],
         "trazos": 4,
-        "notas": "",
+        "notas": "El tercer trazo es el gancho de arriba a la derecha",
         "significados": [
             "Transformar"
         ]
@@ -2175,7 +2175,7 @@
             "シン"
         ],
         "trazos": 11,
-        "notas": "",
+        "notas": "El tercer trazo es la gota central y el quinto el vertical; el noveno, la gota de la izquierda",
         "significados": [
             "Avanzar"
         ]
@@ -2190,7 +2190,7 @@
             "ソウ"
         ],
         "trazos": 9,
-        "notas": "",
+        "notas": "El cuarto trazo es el horizontal y el séptimo la gota de la izquierda",
         "significados": [
             "Enviar"
         ]
@@ -2205,7 +2205,7 @@
             "ヘン"
         ],
         "trazos": 7,
-        "notas": "",
+        "notas": "El quinto trazo es la gota de la izquierda",
         "significados": [
             "Devolver"
         ]
@@ -2220,7 +2220,7 @@
             "セン"
         ],
         "trazos": 9,
-        "notas": "",
+        "notas": "El primer trazo es la gota de la izquierda",
         "significados": [
             "Lavar"
         ]
@@ -2235,7 +2235,7 @@
             "チュウ"
         ],
         "trazos": 8,
-        "notas": "",
+        "notas": "El primer trazo es la gota de la izquierda y el sexto el vertical",
         "significados": [
             "Verter"
         ]
