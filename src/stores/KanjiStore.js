@@ -38,7 +38,7 @@ export const useKanjiStore = defineStore('KanjiStore', () => {
         }
     }
 
-    return {kanjis, posicion, actual, avanzar, retroceder}
+    return { kanjis, posicion, actual, avanzar, retroceder }
 }, {
     persist: {
         paths: ['posicion']
