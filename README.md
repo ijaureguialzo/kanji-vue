@@ -51,3 +51,4 @@ Aprende Kanji con Vue.
 - [Deploying a Static Site](https://vitejs.dev/guide/static-deploy.html)
 - [Pinia - Setup Stores](https://pinia.vuejs.org/core-concepts/#Setup-Stores)
 - [Vue Keypress](https://github.com/lupas/vue3-keypress)
+- [@font-face with a TTF collection rejected by Firefox](https://stackoverflow.com/a/75090087)

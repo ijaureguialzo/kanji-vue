@@ -43,7 +43,7 @@ function rotarFuentes() {
 <style scoped>
 @font-face {
     font-family: kyokasho;
-    src: url("/Kyokasho.ttc");
+    src: url("/YuKyo-Medium.woff2") format("woff2");
 }
 
 .japones {
