@@ -7,6 +7,7 @@ help: _header
 	@echo build / install
 	@echo start / stop / restart
 	@echo workspace
+	@echo logs
 	@echo clean
 	@echo ----------------------
 
@@ -39,6 +40,9 @@ restart: stop start
 
 workspace:
 	@docker compose run --rm vue /bin/bash
+
+logs:
+	@docker compose logs vue
 
 clean:
 	@docker compose down -v --remove-orphans
