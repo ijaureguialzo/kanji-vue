@@ -52,3 +52,4 @@ Aprende Kanji con Vue.
 - [Pinia - Setup Stores](https://pinia.vuejs.org/core-concepts/#Setup-Stores)
 - [Vue Keypress](https://github.com/lupas/vue3-keypress)
 - [@font-face with a TTF collection rejected by Firefox](https://stackoverflow.com/a/75090087)
+- [Tini - A tiny but valid init for containers](https://github.com/krallin/tini)
