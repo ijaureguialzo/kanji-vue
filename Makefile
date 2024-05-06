@@ -11,11 +11,11 @@ help: _header
 	@echo ----------------------
 
 _header:
-	@echo ---
-	@echo Vue
-	@echo ---
+	@echo ---------
+	@echo kanji-vue
+	@echo ---------
 
-_urls:
+_urls: _header
 	${info }
 	@echo ---------------------------
 	@echo [Vue] http://localhost:5173
