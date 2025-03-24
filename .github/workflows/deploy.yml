@@ -1,5 +1,9 @@
 name: Deploy de una aplicación Vue en GitHub Pages
 
+defaults:
+  run:
+    working-directory: .
+
 on:
   # La acción se ejecuta al hacer push a la rama master
   push:
@@ -35,13 +39,10 @@ jobs:
           npm run build
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
-      - name: Construir el sitio web con Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./dist/
-          destination: ./_site
       - name: Cargar los artefactos producidos
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
 
   deploy:
     runs-on: ubuntu-latest
