@@ -27,7 +27,7 @@ build:
 	@docker compose build --pull
 
 install:
-	@docker compose run --rm vue npm install
+	@docker compose run -q --rm vue npm install
 
 _start-command:
 	@docker compose up -d
@@ -40,10 +40,10 @@ stop:
 restart: stop start
 
 workspace:
-	@docker compose run --rm vue /bin/bash
+	@docker compose run -q --rm vue /bin/bash
 
 update:
-	@docker compose run --rm vue /bin/sh -c 'npm update'
+	@docker compose run -q --rm vue /bin/sh -c 'npm update'
 	@echo Generando commit...
 	@sleep 5
 	@git commit -a -m "Actualización de dependencias"
