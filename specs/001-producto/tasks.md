@@ -33,6 +33,8 @@
 - [x] T-025 Añadir modo de visualización aleatoria — FR-008
 - [x] T-026 Añadir niveles N3, N2 y N1 en los datos — FR-009
 - [x] T-027 Integrar niveles N3, N2 y N1 en el store — FR-009
+- [x] T-028 Completar los ficheros de datos N5 a N1 con la lista JLPT de referencia (hanabira.org), deduplicar entradas repetidas y renumerar `id` — FR-010, AC-013
+- [x] T-029 Corregir la errata ニ → 二 en `kanji-n5.json` y poblar lecturas/trazos/significados de las entradas nuevas desde KANJIDIC2 — FR-010, AC-013
 
 ### Fase 3 — Pulido y evolución (pendiente)
 

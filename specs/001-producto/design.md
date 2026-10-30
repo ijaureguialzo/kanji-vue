@@ -36,11 +36,22 @@ solo lo necesario.
 
 ### D-3 — Datos locales en JSON
 
-**Decisión:** Los conjuntos de kanji se almacenarán en `src/data/*.json`.
+**Decisión:** Los conjuntos de kanji se almacenarán en `src/data/*.json` (uno por nivel: `kanji-n5.json` a
+`kanji-n1.json`).
 
 **Razón:** Facilita la incorporación de niveles sin cambios de código.
 
-### D-4 — Persistencia limitada a la posición
+### D-4 — Fuente de los datos de kanji
+
+**Decisión:** La lista de kanji por nivel se toma de la lista JLPT de referencia (hanabira.org/kanji: 79 de N5,
+166 de N4, 367 de N3, 367 de N2 y 1.232 de N1) y los datos de cada kanji (lecturas `on`/`kun`, trazos y
+significados en español) se toman del diccionario KANJIDIC2 (EDRDG). Un kanji ya presente en un nivel no se
+duplica en otro.
+
+**Razón:** Garantiza que las listas sean las oficiales de cada nivel y que lecturas, trazos y significados sean
+correctos y coherentes.
+
+### D-5 — Persistencia limitada a la posición
 
 **Decisión:** Solo se persistirá `posicion` (`paths: ['posicion']`).
 
@@ -101,6 +112,9 @@ main.js
 
 - `0 <= posicion <= kanjis.length - 1` en todo momento.
 - Las acciones de avance/retroceso aplican clamping.
+- No hay kanji duplicados dentro de un fichero ni entre ficheros.
+- Los `id` son secuenciales en la secuencia combinada (N5 → N4 → N3 → N2 → N1).
+- Cada entrada tiene `trazos` > 0 y al menos un significado.
 
 ## 5. Flujo de aplicación
 

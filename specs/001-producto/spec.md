@@ -111,11 +111,17 @@ La aplicación SHALL permitir activar/desactivar mediante un botón de la misma 
 visualización de kanji al azar (no en orden). Cuando está activado, la navegación (`avanzar`/`retroceder`)
 deberá seleccionar un kanji al azar de la secuencia filtrada por nivel.
 
-#### FR-009 — Añadir niveles N3, N2 y N1 (Prioridad: Must, Estado: Implementado)
+#### FR-009 — Niveles N3, N2 y N1 (Prioridad: Must, Estado: Implementado)
 
 La aplicación SHALL incluir los niveles educativos japoneses N3, N2 y N1 como parte de la secuencia de kanji,
 con ficheros de datos locales (`src/data/kanji-n3.json`, `src/data/kanji-n2.json`, `src/data/kanji-n1.json`)
 completos en los campos de información (`id`, `kanji`, `kun`, `on`, `trazos`, `notas`, `significados`).
+
+#### FR-010 — Listas de kanji completas por nivel (Prioridad: Must, Estado: Implementado)
+
+Los ficheros de datos SHALL contener la lista completa de kanji de cada nivel JLPT (N5, N4, N3, N2 y N1) según
+la lista de referencia, sin duplicados dentro de un nivel ni entre ficheros, con `id` secuenciales en la
+secuencia combinada y todos los campos de información poblados (lecturas, trazos y significados en español).
 
 ### 5.2. Requisitos no funcionales
 
@@ -200,6 +206,11 @@ La aplicación SHALL almacenar únicamente la posición del usuario (sin datos p
 - **Dado** que el usuario selecciona un nivel superior (N3, N2 o N1) en la barra de navegación, **Cuando** se muestra
   la secuencia, **Then** la secuencia mostrada corresponde al nivel seleccionado y la posición se reinicia en su
   inicio.
+
+### AC-013 — Completitud de datos
+
+- **Dado** un nivel JLPT, **Cuando** se visualiza su secuencia, **Then** cada kanji muestra lecturas, trazos y
+  significados, sin entradas duplicadas y con `id` secuenciales en la secuencia combinada.
 
 ## 7. Restricciones
 
