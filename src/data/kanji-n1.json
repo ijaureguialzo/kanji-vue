@@ -1,0 +1,77 @@
+[
+    {
+        "id": 678,
+        "kanji": "氏",
+        "kun": [
+            "うじ"
+        ],
+        "on": [
+            "シ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Apellido"
+        ]
+    },
+    {
+        "id": 679,
+        "kanji": "統",
+        "kun": [
+            "す.べて"
+        ],
+        "on": [
+            "トウ"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "General"
+        ]
+    },
+    {
+        "id": 680,
+        "kanji": "保",
+        "kun": [
+            "た.も"
+        ],
+        "on": [
+            "ホ"
+        ],
+        "trazos": 13,
+        "notas": "",
+        "significados": [
+            "Proteger"
+        ]
+    },
+    {
+        "id": 681,
+        "kanji": "第",
+        "kun": [
+            "だい"
+        ],
+        "on": [
+            "ダイ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Número"
+        ]
+    },
+    {
+        "id": 682,
+        "kanji": "結",
+        "kun": [
+            "む.す"
+        ],
+        "on": [
+            "ユウ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Unir"
+        ]
+    }
+]

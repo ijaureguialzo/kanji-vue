@@ -1,0 +1,167 @@
+[
+    {
+        "id": 667,
+        "kanji": "党",
+        "kun": [
+            "とう"
+        ],
+        "on": [
+            "トウ"
+        ],
+        "trazos": 9,
+        "notas": "",
+        "significados": [
+            "Partido"
+        ]
+    },
+    {
+        "id": 668,
+        "kanji": "協",
+        "kun": [
+            "きょう"
+        ],
+        "on": [
+            "キョウ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Cooperación"
+        ]
+    },
+    {
+        "id": 669,
+        "kanji": "総",
+        "kun": [
+            "そう"
+        ],
+        "on": [
+            "ソウ"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "General"
+        ]
+    },
+    {
+        "id": 670,
+        "kanji": "区",
+        "kun": [
+            "く"
+        ],
+        "on": [
+            "ク"
+        ],
+        "trazos": 5,
+        "notas": "",
+        "significados": [
+            "Distrito"
+        ]
+    },
+    {
+        "id": 671,
+        "kanji": "領",
+        "kun": [
+            "りょう"
+        ],
+        "on": [
+            "リョウ"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Jurisdicción"
+        ]
+    },
+    {
+        "id": 672,
+        "kanji": "県",
+        "kun": [
+            "けん"
+        ],
+        "on": [
+            "ケン"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Prefectura"
+        ]
+    },
+    {
+        "id": 673,
+        "kanji": "設",
+        "kun": [
+            "せつ"
+        ],
+        "on": [
+            "セツ"
+        ],
+        "trazos": 12,
+        "notas": "",
+        "significados": [
+            "Establecimiento"
+        ]
+    },
+    {
+        "id": 674,
+        "kanji": "改",
+        "kun": [
+            "あらた.める"
+        ],
+        "on": [
+            "カイ"
+        ],
+        "trazos": 14,
+        "notas": "",
+        "significados": [
+            "Reforma"
+        ]
+    },
+    {
+        "id": 675,
+        "kanji": "府",
+        "kun": [
+            "ふ"
+        ],
+        "on": [
+            "フ"
+        ],
+        "trazos": 8,
+        "notas": "",
+        "significados": [
+            "Distrito urbano"
+        ]
+    },
+    {
+        "id": 676,
+        "kanji": "査",
+        "kun": [
+            "さ"
+        ],
+        "on": [
+            "サ"
+        ],
+        "trazos": 11,
+        "notas": "",
+        "significados": [
+            "Investigar"
+        ]
+    },
+    {
+        "id": 677,
+        "kanji": "委",
+        "kun": [
+            "い"
+        ],
+        "on": [
+            "イ"
+        ],
+        "trazos": 10,
+        "notas": "",
+        "significados": [
+            "Comité"
+        ]
+    }
+]

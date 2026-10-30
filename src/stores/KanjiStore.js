@@ -3,8 +3,11 @@ import { computed, ref } from 'vue';
 
 import n5 from '@/data/kanji-n5.json';
 import n4 from '@/data/kanji-n4.json';
+import n3 from '@/data/kanji-n3.json';
+import n2 from '@/data/kanji-n2.json';
+import n1 from '@/data/kanji-n1.json';
 
-const datos = n5.concat(n4);
+const datos = n5.concat(n4, n3, n2, n1);
 
 export const useKanjiStore = defineStore('KanjiStore', () => {
 
@@ -13,15 +16,32 @@ export const useKanjiStore = defineStore('KanjiStore', () => {
     const nivel = ref('todos');
     const aleatorio = ref(false);
 
-    const niveles = ['todos', 'n5', 'n4'];
+    const niveles = ['todos', 'n5', 'n4', 'n3', 'n2', 'n1'];
 
     const kanjisDelNivel = computed(() => {
-        if (nivel.value === 'n5') {
-            return kanjis.value.filter((_, index) => index < n5.length);
-        } else if (nivel.value === 'n4') {
-            return kanjis.value.filter((_, index) => index >= n5.length);
+        const nivelActual = nivel.value;
+        if (nivelActual === 'todos') {
+            return kanjis.value;
         }
-        return kanjis.value;
+        let inicio = 0;
+        let fin = 0;
+        if (nivelActual === 'n5') {
+            inicio = 0;
+            fin = n5.length;
+        } else if (nivelActual === 'n4') {
+            inicio = n5.length;
+            fin = n5.length + n4.length;
+        } else if (nivelActual === 'n3') {
+            inicio = n5.length + n4.length;
+            fin = n5.length + n4.length + n3.length;
+        } else if (nivelActual === 'n2') {
+            inicio = n5.length + n4.length + n3.length;
+            fin = n5.length + n4.length + n3.length + n2.length;
+        } else if (nivelActual === 'n1') {
+            inicio = n5.length + n4.length + n3.length + n2.length;
+            fin = datos.length;
+        }
+        return kanjis.value.slice(inicio, fin);
     });
 
     const actual = computed(() => {

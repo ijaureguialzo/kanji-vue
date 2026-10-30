@@ -31,6 +31,8 @@
 - [x] T-019 Visualizar arrays de datos — FR-001, AC-007
 - [x] T-024 Añadir barra de navegación con selección de nivel (Todos/N5/N4) — FR-007
 - [x] T-025 Añadir modo de visualización aleatoria — FR-008
+- [x] T-026 Añadir niveles N3, N2 y N1 en los datos — FR-009
+- [x] T-027 Integrar niveles N3, N2 y N1 en el store — FR-009
 
 ### Fase 3 — Pulido y evolución (pendiente)
 

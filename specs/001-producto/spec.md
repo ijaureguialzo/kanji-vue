@@ -103,13 +103,19 @@ La aplicación SHALL enlazar cada kanji con el buscador del diccionario online (
 #### FR-007 — Selección de nivel mediante barra de navegación (Prioridad: Must, Estado: Implementado)
 
 La aplicación SHALL permitir seleccionar el nivel de kanji a visualizar mediante una barra de navegación
-decreciente ubicada en la esquina superior derecha, con las opciones "Todos", "N5" y "N4".
+decreciente ubicada en la esquina superior derecha, con las opciones "Todos", "N5", "N4", "N3", "N2" y "N1".
 
 #### FR-008 — Visualización aleatoria (Prioridad: Must, Estado: Implementado)
 
 La aplicación SHALL permitir activar/desactivar mediante un botón de la misma barra de navegación la
 visualización de kanji al azar (no en orden). Cuando está activado, la navegación (`avanzar`/`retroceder`)
 deberá seleccionar un kanji al azar de la secuencia filtrada por nivel.
+
+#### FR-009 — Añadir niveles N3, N2 y N1 (Prioridad: Must, Estado: Implementado)
+
+La aplicación SHALL incluir los niveles educativos japoneses N3, N2 y N1 como parte de la secuencia de kanji,
+con ficheros de datos locales (`src/data/kanji-n3.json`, `src/data/kanji-n2.json`, `src/data/kanji-n1.json`)
+completos en los campos de información (`id`, `kanji`, `kun`, `on`, `trazos`, `notas`, `significados`).
 
 ### 5.2. Requisitos no funcionales
 
@@ -188,6 +194,12 @@ La aplicación SHALL almacenar únicamente la posición del usuario (sin datos p
 
 - **Dado** que el modo aleatorio está activo, **Cuando** la selección aleatoria supera los límites de la secuencia,
   **Then** se respeta el clamping de posición.
+
+### AC-012 — Niveles superiores
+
+- **Dado** que el usuario selecciona un nivel superior (N3, N2 o N1) en la barra de navegación, **Cuando** se muestra
+  la secuencia, **Then** la secuencia mostrada corresponde al nivel seleccionado y la posición se reinicia en su
+  inicio.
 
 ## 7. Restricciones
 
