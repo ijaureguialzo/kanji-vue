@@ -46,16 +46,17 @@ export const useKanjiStore = defineStore('KanjiStore', () => {
 
     const actual = computed(() => {
         const lista = kanjisDelNivel.value;
+        const listaActiva = (lista && lista.length > 0) ? lista : kanjis.value;
         let indice = posicion.value;
         if (indice < 0) {
             indice = 0;
-        } else if (indice >= lista.length) {
-            indice = lista.length - 1;
+        } else if (indice >= listaActiva.length) {
+            indice = listaActiva.length - 1;
         }
         if (aleatorio.value) {
-            indice = Math.floor(Math.random() * lista.length);
+            indice = Math.floor(Math.random() * listaActiva.length);
         }
-        return lista[indice];
+        return listaActiva[indice];
     });
 
     function avanzar(n = 1) {
