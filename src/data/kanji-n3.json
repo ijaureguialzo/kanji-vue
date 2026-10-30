@@ -1365,5 +1365,547 @@
         "significados": [
             "Golpear"
         ]
+    },
+    {
+        "id": 401,
+        "kanji": "建",
+        "kun": [
+            "た.て"
+        ],
+        "on": [
+            "ケン"
+        ],
+        "trazos": 8,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Construir"
+        ]
+    },
+    {
+        "id": 402,
+        "kanji": "構",
+        "kun": [
+            "かま.う"
+        ],
+        "on": [
+            "コウ"
+        ],
+        "trazos": 15,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Estructura"
+        ]
+    },
+    {
+        "id": 403,
+        "kanji": "護",
+        "kun": [
+            "お.さ.な"
+        ],
+        "on": [
+            "ゴ"
+        ],
+        "trazos": 13,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Proteger"
+        ]
+    },
+    {
+        "id": 404,
+        "kanji": "拡",
+        "kun": [
+            "ひろ.げる"
+        ],
+        "on": [
+            "カク"
+        ],
+        "trazos": 13,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Ampliar"
+        ]
+    },
+    {
+        "id": 405,
+        "kanji": "掘",
+        "kun": [
+            "う.く"
+        ],
+        "on": [
+            "カ"
+        ],
+        "trazos": 13,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Excavar"
+        ]
+    },
+    {
+        "id": 406,
+        "kanji": "拝",
+        "kun": [
+            "お.が.ね"
+        ],
+        "on": [
+            "ハ"
+        ],
+        "trazos": 11,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Adorar"
+        ]
+    },
+    {
+        "id": 407,
+        "kanji": "搭",
+        "kun": [
+            "く.う"
+        ],
+        "on": [
+            "ト"
+        ],
+        "trazos": 8,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Subir a bordo"
+        ]
+    },
+    {
+        "id": 408,
+        "kanji": "抑",
+        "kun": [
+            "お.さ.える"
+        ],
+        "on": [
+            "エ"
+        ],
+        "trazos": 13,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Suprimir"
+        ]
+    },
+    {
+        "id": 409,
+        "kanji": "払",
+        "kun": [
+            "はら.う"
+        ],
+        "on": [
+            "フ"
+        ],
+        "trazos": 11,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Pagar"
+        ]
+    },
+    {
+        "id": 410,
+        "kanji": "揮",
+        "kun": [
+            "ふる.う"
+        ],
+        "on": [
+            "キ"
+        ],
+        "trazos": 12,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Agitar"
+        ]
+    },
+    {
+        "id": 411,
+        "kanji": "掲",
+        "kun": [
+            "か.う"
+        ],
+        "on": [
+            "ケイ"
+        ],
+        "trazos": 13,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Publicar"
+        ]
+    },
+    {
+        "id": 412,
+        "kanji": "挟",
+        "kun": [
+            "は.さ.む"
+        ],
+        "on": [
+            "ザ"
+        ],
+        "trazos": 11,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Apretar"
+        ]
+    },
+    {
+        "id": 413,
+        "kanji": "挨",
+        "kun": [
+            "あ.う"
+        ],
+        "on": [
+            "アイ"
+        ],
+        "trazos": 10,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Unir"
+        ]
+    },
+    {
+        "id": 414,
+        "kanji": "搭",
+        "kun": [
+            "く.う"
+        ],
+        "on": [
+            "ト"
+        ],
+        "trazos": 8,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Subir a bordo"
+        ]
+    },
+    {
+        "id": 415,
+        "kanji": "拡",
+        "kun": [
+            "ひろ.げる"
+        ],
+        "on": [
+            "カク"
+        ],
+        "trazos": 13,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Ampliar"
+        ]
+    },
+    {
+        "id": 416,
+        "kanji": "挙",
+        "kun": [
+            "こ.う"
+        ],
+        "on": [
+            "キョ"
+        ],
+        "trazos": 14,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Levantar"
+        ]
+    },
+    {
+        "id": 417,
+        "kanji": "挙",
+        "kun": [
+            "こ.う"
+        ],
+        "on": [
+            "キョ"
+        ],
+        "trazos": 14,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Levantar"
+        ]
+    },
+    {
+        "id": 418,
+        "kanji": "閲",
+        "kun": [
+            "え.く"
+        ],
+        "on": [
+            "エキ"
+        ],
+        "trazos": 14,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Leer"
+        ]
+    },
+    {
+        "id": 419,
+        "kanji": "閲",
+        "kun": [
+            "え.く"
+        ],
+        "on": [
+            "エキ"
+        ],
+        "trazos": 14,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Leer"
+        ]
+    },
+    {
+        "id": 420,
+        "kanji": "圧",
+        "kun": [
+            "お.す",
+            "ち"
+        ],
+        "on": [
+            "アツ"
+        ],
+        "trazos": 12,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Presión"
+        ]
+    },
+    {
+        "id": 421,
+        "kanji": "圧",
+        "kun": [
+            "お.す",
+            "ち"
+        ],
+        "on": [
+            "アツ"
+        ],
+        "trazos": 12,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Presión"
+        ]
+    },
+    {
+        "id": 422,
+        "kanji": "挨",
+        "kun": [
+            "あ.う"
+        ],
+        "on": [
+            "アイ"
+        ],
+        "trazos": 10,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Unir"
+        ]
+    },
+    {
+        "id": 423,
+        "kanji": "挨",
+        "kun": [
+            "あ.う"
+        ],
+        "on": [
+            "アイ"
+        ],
+        "trazos": 10,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Unir"
+        ]
+    },
+    {
+        "id": 424,
+        "kanji": "搭",
+        "kun": [
+            "く.う"
+        ],
+        "on": [
+            "ト"
+        ],
+        "trazos": 8,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Subir a bordo"
+        ]
+    },
+    {
+        "id": 425,
+        "kanji": "搭",
+        "kun": [
+            "く.う"
+        ],
+        "on": [
+            "ト"
+        ],
+        "trazos": 8,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Subir a bordo"
+        ]
+    },
+    {
+        "id": 426,
+        "kanji": "拝",
+        "kun": [
+            "お.が.ね"
+        ],
+        "on": [
+            "ハ"
+        ],
+        "trazos": 11,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Adorar"
+        ]
+    },
+    {
+        "id": 427,
+        "kanji": "拝",
+        "kun": [
+            "お.が.ね"
+        ],
+        "on": [
+            "ハ"
+        ],
+        "trazos": 11,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Adorar"
+        ]
+    },
+    {
+        "id": 428,
+        "kanji": "揮",
+        "kun": [
+            "ふる.う"
+        ],
+        "on": [
+            "キ"
+        ],
+        "trazos": 12,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Agitar"
+        ]
+    },
+    {
+        "id": 429,
+        "kanji": "揮",
+        "kun": [
+            "ふる.う"
+        ],
+        "on": [
+            "キ"
+        ],
+        "trazos": 12,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Agitar"
+        ]
+    },
+    {
+        "id": 430,
+        "kanji": "掲",
+        "kun": [
+            "か.う"
+        ],
+        "on": [
+            "ケイ"
+        ],
+        "trazos": 13,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Publicar"
+        ]
+    },
+    {
+        "id": 431,
+        "kanji": "掲",
+        "kun": [
+            "か.う"
+        ],
+        "on": [
+            "ケイ"
+        ],
+        "trazos": 13,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Publicar"
+        ]
+    },
+    {
+        "id": 432,
+        "kanji": "挟",
+        "kun": [
+            "は.さ.む"
+        ],
+        "on": [
+            "ザ"
+        ],
+        "trazos": 11,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Apretar"
+        ]
+    },
+    {
+        "id": 433,
+        "kanji": "挟",
+        "kun": [
+            "は.さ.む"
+        ],
+        "on": [
+            "ザ"
+        ],
+        "trazos": 11,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Apretar"
+        ]
+    },
+    {
+        "id": 434,
+        "kanji": "挨",
+        "kun": [
+            "あ.う"
+        ],
+        "on": [
+            "アイ"
+        ],
+        "trazos": 10,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Unir"
+        ]
+    },
+    {
+        "id": 435,
+        "kanji": "挨",
+        "kun": [
+            "あ.う"
+        ],
+        "on": [
+            "アイ"
+        ],
+        "trazos": 10,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Unir"
+        ]
+    },
+    {
+        "id": 436,
+        "kanji": "搭",
+        "kun": [
+            "く.う"
+        ],
+        "on": [
+            "ト"
+        ],
+        "trazos": 8,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Subir a bordo"
+        ]
     }
 ]

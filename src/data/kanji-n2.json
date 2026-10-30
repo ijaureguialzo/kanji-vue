@@ -163,5 +163,410 @@
         "significados": [
             "Comité"
         ]
+    },
+    {
+        "id": 683,
+        "kanji": "党",
+        "kun": [
+            "とう"
+        ],
+        "on": [
+            "トウ"
+        ],
+        "trazos": 9,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Partido"
+        ]
+    },
+    {
+        "id": 684,
+        "kanji": "協",
+        "kun": [
+            "きょう"
+        ],
+        "on": [
+            "キョウ"
+        ],
+        "trazos": 8,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Cooperación"
+        ]
+    },
+    {
+        "id": 685,
+        "kanji": "総",
+        "kun": [
+            "そう"
+        ],
+        "on": [
+            "ソウ"
+        ],
+        "trazos": 12,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "General"
+        ]
+    },
+    {
+        "id": 686,
+        "kanji": "区",
+        "kun": [
+            "く"
+        ],
+        "on": [
+            "ク"
+        ],
+        "trazos": 5,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Distrito"
+        ]
+    },
+    {
+        "id": 687,
+        "kanji": "領",
+        "kun": [
+            "りょう"
+        ],
+        "on": [
+            "リョウ"
+        ],
+        "trazos": 12,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Jurisdicción"
+        ]
+    },
+    {
+        "id": 688,
+        "kanji": "県",
+        "kun": [
+            "けん"
+        ],
+        "on": [
+            "ケン"
+        ],
+        "trazos": 10,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Prefectura"
+        ]
+    },
+    {
+        "id": 689,
+        "kanji": "設",
+        "kun": [
+            "せつ"
+        ],
+        "on": [
+            "セツ"
+        ],
+        "trazos": 12,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Establecimiento"
+        ]
+    },
+    {
+        "id": 690,
+        "kanji": "改",
+        "kun": [
+            "あらた.める"
+        ],
+        "on": [
+            "カイ"
+        ],
+        "trazos": 14,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Reforma"
+        ]
+    },
+    {
+        "id": 691,
+        "kanji": "府",
+        "kun": [
+            "ふ"
+        ],
+        "on": [
+            "フ"
+        ],
+        "trazos": 8,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Distrito urbano"
+        ]
+    },
+    {
+        "id": 692,
+        "kanji": "査",
+        "kun": [
+            "さ"
+        ],
+        "on": [
+            "サ"
+        ],
+        "trazos": 11,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Investigar"
+        ]
+    },
+    {
+        "id": 693,
+        "kanji": "委",
+        "kun": [
+            "い"
+        ],
+        "on": [
+            "イ"
+        ],
+        "trazos": 10,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Comité"
+        ]
+    },
+    {
+        "id": 694,
+        "kanji": "党",
+        "kun": [
+            "とう"
+        ],
+        "on": [
+            "トウ"
+        ],
+        "trazos": 9,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Partido"
+        ]
+    },
+    {
+        "id": 695,
+        "kanji": "協",
+        "kun": [
+            "きょう"
+        ],
+        "on": [
+            "キョウ"
+        ],
+        "trazos": 8,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Cooperación"
+        ]
+    },
+    {
+        "id": 696,
+        "kanji": "総",
+        "kun": [
+            "そう"
+        ],
+        "on": [
+            "ソウ"
+        ],
+        "trazos": 12,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "General"
+        ]
+    },
+    {
+        "id": 697,
+        "kanji": "区",
+        "kun": [
+            "く"
+        ],
+        "on": [
+            "ク"
+        ],
+        "trazos": 5,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Distrito"
+        ]
+    },
+    {
+        "id": 698,
+        "kanji": "領",
+        "kun": [
+            "りょう"
+        ],
+        "on": [
+            "リョウ"
+        ],
+        "trazos": 12,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Jurisdicción"
+        ]
+    },
+    {
+        "id": 699,
+        "kanji": "県",
+        "kun": [
+            "けん"
+        ],
+        "on": [
+            "ケン"
+        ],
+        "trazos": 10,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Prefectura"
+        ]
+    },
+    {
+        "id": 700,
+        "kanji": "設",
+        "kun": [
+            "せつ"
+        ],
+        "on": [
+            "セツ"
+        ],
+        "trazos": 12,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Establecimiento"
+        ]
+    },
+    {
+        "id": 701,
+        "kanji": "改",
+        "kun": [
+            "あらた.める"
+        ],
+        "on": [
+            "カイ"
+        ],
+        "trazos": 14,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Reforma"
+        ]
+    },
+    {
+        "id": 702,
+        "kanji": "府",
+        "kun": [
+            "ふ"
+        ],
+        "on": [
+            "フ"
+        ],
+        "trazos": 8,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Distrito urbano"
+        ]
+    },
+    {
+        "id": 703,
+        "kanji": "査",
+        "kun": [
+            "さ"
+        ],
+        "on": [
+            "サ"
+        ],
+        "trazos": 11,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Investigar"
+        ]
+    },
+    {
+        "id": 704,
+        "kanji": "委",
+        "kun": [
+            "い"
+        ],
+        "on": [
+            "イ"
+        ],
+        "trazos": 10,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Comité"
+        ]
+    },
+    {
+        "id": 705,
+        "kanji": "拡",
+        "kun": [
+            "ひろ.げる"
+        ],
+        "on": [
+            "カク"
+        ],
+        "trazos": 13,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Ampliar"
+        ]
+    },
+    {
+        "id": 706,
+        "kanji": "掘",
+        "kun": [
+            "う.く"
+        ],
+        "on": [
+            "カ"
+        ],
+        "trazos": 13,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Excavar"
+        ]
+    },
+    {
+        "id": 707,
+        "kanji": "拝",
+        "kun": [
+            "お.が.ね"
+        ],
+        "on": [
+            "ハ"
+        ],
+        "trazos": 11,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Adorar"
+        ]
+    },
+    {
+        "id": 708,
+        "kanji": "搭",
+        "kun": [
+            "く.う"
+        ],
+        "on": [
+            "ト"
+        ],
+        "trazos": 8,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Subir a bordo"
+        ]
+    },
+    {
+        "id": 709,
+        "kanji": "抑",
+        "kun": [
+            "お.さ.える"
+        ],
+        "on": [
+            "エ"
+        ],
+        "trazos": 13,
+        "notas": "El primer trazo es el punto central",
+        "significados": [
+            "Suprimir"
+        ]
     }
 ]
