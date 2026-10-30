@@ -22,7 +22,7 @@ useKeypress({
 </script>
 
 <template>
-    <div class="position-fixed top-0 end-0 p-3">
+    <div class="position-fixed top-0 end-0 p-3 d-flex flex-column align-items-end">
         <div class="btn-group" role="group" aria-label="Seleccionar el nivel de kanji">
             <button v-for="nivelItem in kanjiStore.niveles" :key="nivelItem" type="button"
                     class="btn btn-sm"
