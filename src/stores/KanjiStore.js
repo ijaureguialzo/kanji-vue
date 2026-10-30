@@ -61,22 +61,24 @@ export const useKanjiStore = defineStore('KanjiStore', () => {
 
     function avanzar(n = 1) {
         const lista = kanjisDelNivel.value;
+        const listaActiva = (lista && lista.length > 0) ? lista : kanjis.value;
         let nuevaPosicion = posicion.value + n;
         if (aleatorio.value) {
-            nuevaPosicion = Math.floor(Math.random() * lista.length);
+            nuevaPosicion = Math.floor(Math.random() * listaActiva.length);
         }
-        if (nuevaPosicion < lista.length - 1) {
+        if (nuevaPosicion < listaActiva.length - 1) {
             posicion.value = nuevaPosicion;
         } else {
-            posicion.value = lista.length - 1;
+            posicion.value = listaActiva.length - 1;
         }
     }
 
     function retroceder(n = 1) {
         const lista = kanjisDelNivel.value;
+        const listaActiva = (lista && lista.length > 0) ? lista : kanjis.value;
         let nuevaPosicion = posicion.value - n;
         if (aleatorio.value) {
-            nuevaPosicion = Math.floor(Math.random() * lista.length);
+            nuevaPosicion = Math.floor(Math.random() * listaActiva.length);
         }
         if (nuevaPosicion > 0) {
             posicion.value = nuevaPosicion;
