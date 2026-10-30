@@ -29,6 +29,8 @@
 - [x] T-017 Añadir rotación de fuentes — FR-005
 - [x] T-018 Añadir enlace al diccionario — FR-006
 - [x] T-019 Visualizar arrays de datos — FR-001, AC-007
+- [x] T-024 Añadir barra de navegación con selección de nivel (Todos/N5/N4) — FR-007
+- [x] T-025 Añadir modo de visualización aleatoria — FR-008
 
 ### Fase 3 — Pulido y evolución (pendiente)
 

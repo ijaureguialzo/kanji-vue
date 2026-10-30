@@ -100,6 +100,17 @@ La aplicación SHALL permitir rotar entre fuentes del kanji.
 
 La aplicación SHALL enlazar cada kanji con el buscador del diccionario online (jisho.org).
 
+#### FR-007 — Selección de nivel mediante barra de navegación (Prioridad: Must, Estado: Implementado)
+
+La aplicación SHALL permitir seleccionar el nivel de kanji a visualizar mediante una barra de navegación
+decreciente ubicada en la esquina superior derecha, con las opciones "Todos", "N5" y "N4".
+
+#### FR-008 — Visualización aleatoria (Prioridad: Must, Estado: Implementado)
+
+La aplicación SHALL permitir activar/desactivar mediante un botón de la misma barra de navegación la
+visualización de kanji al azar (no en orden). Cuando está activado, la navegación (`avanzar`/`retroceder`)
+deberá seleccionar un kanji al azar de la secuencia filtrada por nivel.
+
 ### 5.2. Requisitos no funcionales
 
 #### NFR-001 — Rendimiento
@@ -154,6 +165,29 @@ La aplicación SHALL almacenar únicamente la posición del usuario (sin datos p
 
 - **Dado** un kanji sin lecturas o con notas vacías, **Cuando** se renderiza la tarjeta, **Then** esos bloques no se
   muestran.
+
+### AC-008 — Selección de nivel
+
+- **Dado** que el usuario selecciona un nivel ("Todos", "N5" o "N4") en la barra de navegación, **Cuando** se muestra
+  la secuencia, **Then** la secuencia mostrada corresponde al nivel seleccionado y la posición se reinicia en su
+  inicio.
+
+### AC-009 — Modo aleatorio
+
+- **Dado** que el modo aleatorio está activado, **Cuando** el usuario avanza o retrocede, **Then** se muestra un
+  kanji al azar de la secuencia del nivel actual.
+
+### AC-010 — Toggle del modo aleatorio
+
+- **Dado** que el modo aleatorio está desactivado (por defecto), **Cuando** el usuario activa el toggle, **Then** la
+  navegación pasa a seleccionar kanji al azar.
+- **Dado** que el modo aleatorio está activo, **Cuando** el usuario desactiva el toggle, **Then** la navegación
+  vuelve a la secuencia ordenada.
+
+### AC-011 — Límite en modo aleatorio
+
+- **Dado** que el modo aleatorio está activo, **Cuando** la selección aleatoria supera los límites de la secuencia,
+  **Then** se respeta el clamping de posición.
 
 ## 7. Restricciones
 

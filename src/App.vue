@@ -22,6 +22,21 @@ useKeypress({
 </script>
 
 <template>
+    <div class="position-fixed top-0 end-0 p-3">
+        <div class="btn-group" role="group" aria-label="Seleccionar el nivel de kanji">
+            <button v-for="nivelItem in kanjiStore.niveles" :key="nivelItem" type="button"
+                    class="btn btn-sm"
+                    :class="kanjiStore.nivel === nivelItem ? 'btn-secondary' : 'btn-outline-secondary'"
+                    @click="kanjiStore.seleccionarNivel(nivelItem)">
+                {{ nivelItem === 'todos' ? 'Todos' : nivelItem.toUpperCase() }}
+            </button>
+        </div>
+        <button type="button" class="btn btn-sm mt-2"
+                :class="kanjiStore.aleatorio ? 'btn-secondary' : 'btn-outline-secondary'"
+                @click="kanjiStore.alternarAleatorio()">
+            <i class="bi bi-shuffle"></i> Aleatorio
+        </button>
+    </div>
     <div class="d-flex flex-grow-1 col-12 col-sm-8 col-md-6 col-lg-4 justify-content-between align-items-center">
         <div class="d-flex flex-column">
             <button title="Anterior" class="btn btn-primary rectangulo text-light flex-shrink-0 fs-3 mb-3"
