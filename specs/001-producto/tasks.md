@@ -1,6 +1,6 @@
 # Tasks — kanji-vue (001-producto)
 
-- **Estado:** Draft
+- **Estado:** Implementada
 - **Fecha:** 2026-10-30
 - **Especación:** [`spec.md`](./spec.md)
 
@@ -35,6 +35,7 @@
 - [x] T-027 Integrar niveles N3, N2 y N1 en el store — FR-009
 - [x] T-028 Completar los ficheros de datos N5 a N1 con la lista JLPT de referencia (hanabira.org), deduplicar entradas repetidas y renumerar `id` — FR-010, AC-013
 - [x] T-029 Corregir la errata ニ → 二 en `kanji-n5.json` y poblar lecturas/trazos/significados de las entradas nuevas desde KANJIDIC2 — FR-010, AC-013
+- [x] T-030 Alinear la documentación SDD (spec, design, AGENTS.md) con el estado real: niveles N5–N1, fuente de datos, `nivel`/`aleatorio` en el store y estados de la especificación — FR-007, FR-008, FR-010
 
 ### Fase 3 — Pulido y evolución (pendiente)
 

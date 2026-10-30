@@ -27,7 +27,7 @@ specs/
 
 | Carpeta | Especificación | Estado |
 | --- | --- | --- |
-| `001-producto` | Especificación del producto kanji-vue (visión, requisitos, diseño y tareas) | Draft |
+| `001-producto` | Especificación del producto kanji-vue (visión, requisitos, diseño y tareas) | Implementada |
 
 ## Crear una nueva especificación
 

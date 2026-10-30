@@ -23,7 +23,7 @@ cualquier funcionalidad o proponer cambios. Las especificaciones formales del pr
 ## Contexto del proyecto
 
 **kanji-vue** es una aplicación web de aprendizaje de kanji desarrollada con **Vue 3**. Muestra tarjetas de kanji
-del nivel educativo japonés N5 y, posteriormente, los niveles superiores (N4), acompañadas de su carácter, sus
+de los niveles educativos japoneses N5 a N1, acompañadas de su carácter, sus
 lecturas (kun y on), el número de trazos, las notas y los significados. El usuario navega secuencialmente por la
 secuencia de kanji mediante botones o mediante atajos de teclado, con persistencia de la posición en el dispositivo.
 
@@ -70,7 +70,10 @@ src/
 │   └── VisualizarArray.vue  # Visualización de arrays con separador
 ├── data/
 │   ├── kanji-n5.json        # Secuencia N5 (110 kanji)
-│   └── kanji-n4.json        # Secuencia N4 (200 kanji)
+│   ├── kanji-n4.json        # Secuencia N4 (201 kanji)
+│   ├── kanji-n3.json        # Secuencia N3 (335 kanji)
+│   ├── kanji-n2.json        # Secuencia N2 (346 kanji)
+│   └── kanji-n1.json        # Secuencia N1 (1.221 kanji)
 └── stores/
     └── KanjiStore.js        # Pinia setup store
 
@@ -91,14 +94,15 @@ Flujo de la funcionalidad principal:
 
 ```
 App.vue
- └── KanjiStore (Pinia: kanjis, posicion, actual, avanzar, retroceder)
+ └── KanjiStore (Pinia: kanjis, posicion, nivel, aleatorio, actual, avanzar, retroceder)
       └── KanjiCard (:tarjeta="actual")
            └── VisualizarArray (:datos="...")
 ```
 
 - `src/main.js`: crea la aplicación, registra Pinia con `pinia-plugin-persistedstate` y monta `App.vue`.
-- `src/stores/KanjiStore.js`: Pinia **setup store** que expone `kanjis`, `posicion`, `actual` y las acciones
-  `avanzar(n)` / `retroceder(n)`, con clamping a los límites de la secuencia.
+- `src/stores/KanjiStore.js`: Pinia **setup store** que expone `kanjis`, `posicion`, `nivel`, `aleatorio`,
+  `actual` y las acciones `avanzar(n)` / `retroceder(n)` / `seleccionarNivel(nivel)` /
+  `alternarAleatorio()`, con clamping a los límites de la secuencia filtrada por nivel.
 - `src/App.vue`: compone el layout y los botones de navegación, delegando en el store.
 - `src/components/KanjiCard.vue`: recibe la tarjeta como prop (`tarjeta`) y renderiza los datos.
 - `src/components/VisualizarArray.vue`: recibe un array y lo muestra unificado con separador ` · `.

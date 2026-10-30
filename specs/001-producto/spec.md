@@ -1,6 +1,6 @@
 # Spec 001 — Especificación del producto: kanji-vue
 
-- **Estado:** Draft
+- **Estado:** Implementada
 - **Fecha:** 2026-10-30
 - **Repositorio:** `kanji-vue`
 
@@ -9,7 +9,7 @@
 ### 1.1. Descripción
 
 **kanji-vue** es una aplicación web de aprendizaje de kanji construida con Vue 3. Su funcionalidad principal es
-mostrar tarjetas de kanji —del nivel educativo japonés N5 y de los niveles superiores (N4)— acompañadas del carácter,
+mostrar tarjetas de kanji —de los niveles educativos japoneses N5 a N1— acompañadas del carácter,
 sus lecturas (kun y on), el número de trazos, las notas y los significados.
 
 El usuario avanza secuencialmente por la secuencia de kanji mediante botones de navegación y mediante atajos de
@@ -120,8 +120,9 @@ completos en los campos de información (`id`, `kanji`, `kun`, `on`, `trazos`, `
 #### FR-010 — Listas de kanji completas por nivel (Prioridad: Must, Estado: Implementado)
 
 Los ficheros de datos SHALL contener la lista completa de kanji de cada nivel JLPT (N5, N4, N3, N2 y N1) según
-la lista de referencia, sin duplicados dentro de un nivel ni entre ficheros, con `id` secuenciales en la
-secuencia combinada y todos los campos de información poblados (lecturas, trazos y significados en español).
+la lista de referencia definida en [`design.md`](./design.md) (decisión D-4), sin duplicados dentro de un nivel ni
+entre ficheros, con `id` secuenciales en la secuencia combinada y `trazos` y `significados` (en español) siempre
+poblados; las lecturas `kun` y `on` se pueblan cuando existen en el diccionario.
 
 ### 5.2. Requisitos no funcionales
 
@@ -180,7 +181,7 @@ La aplicación SHALL almacenar únicamente la posición del usuario (sin datos p
 
 ### AC-008 — Selección de nivel
 
-- **Dado** que el usuario selecciona un nivel ("Todos", "N5" o "N4") en la barra de navegación, **Cuando** se muestra
+- **Dado** que el usuario selecciona un nivel ("Todos", "N5"…"N1") en la barra de navegación, **Cuando** se muestra
   la secuencia, **Then** la secuencia mostrada corresponde al nivel seleccionado y la posición se reinicia en su
   inicio.
 
@@ -209,8 +210,8 @@ La aplicación SHALL almacenar únicamente la posición del usuario (sin datos p
 
 ### AC-013 — Completitud de datos
 
-- **Dado** un nivel JLPT, **Cuando** se visualiza su secuencia, **Then** cada kanji muestra lecturas, trazos y
-  significados, sin entradas duplicadas y con `id` secuenciales en la secuencia combinada.
+- **Dado** un nivel JLPT, **Cuando** se visualiza su secuencia, **Then** cada kanji muestra sus lecturas (cuando
+  existan), trazos y significados, sin entradas duplicadas y con `id` secuenciales en la secuencia combinada.
 
 ## 7. Restricciones
 

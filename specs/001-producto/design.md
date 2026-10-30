@@ -1,6 +1,6 @@
 # Design 001 — Diseño técnico: kanji-vue
 
-- **Estado:** Draft
+- **Estado:** Implementada
 - **Fecha:** 2026-10-30
 - **Especación:** [`spec.md`](./spec.md)
 
@@ -29,9 +29,10 @@ actual.
 ### D-2 — Estado centralizado en Pinia (setup store)
 
 **Decisión:** Toda la lógica de secuencia y navegación residirá en un Pinia setup store
-(`src/stores/KanjiStore.js`).
+(`src/stores/KanjiStore.js`), que expone `kanjis`, `posicion`, `nivel`, `aleatorio` y las acciones
+`avanzar(n)`, `retroceder(n)`, `seleccionarNivel(nivel)` y `alternarAleatorio()`.
 
-**Razón:** Centraliza el estado (`kanjis`, `posicion`) y las acciones (`avanzar`, `retroceder`) y permite persistir
+**Razón:** Centraliza el estado (`kanjis`, `posicion`, `nivel`, `aleatorio`) y las acciones y permite persistir
 solo lo necesario.
 
 ### D-3 — Datos locales en JSON
@@ -43,13 +44,15 @@ solo lo necesario.
 
 ### D-4 — Fuente de los datos de kanji
 
-**Decisión:** La lista de kanji por nivel se toma de la lista JLPT de referencia (hanabira.org/kanji: 79 de N5,
-166 de N4, 367 de N3, 367 de N2 y 1.232 de N1) y los datos de cada kanji (lecturas `on`/`kun`, trazos y
-significados en español) se toman del diccionario KANJIDIC2 (EDRDG). Un kanji ya presente en un nivel no se
-duplica en otro.
+**Decisión:** La lista de referencia es la del JLPT publicada en hanabira.org/kanji (79 kanji de N5, 166 de N4,
+367 de N3, 367 de N2 y 1.232 de N1; 2.211 en total). Cada kanji de esa lista está presente en el nivel que la
+página le asigna, salvo que ya figurase en un fichero anterior (p. ej. 会社 en N5), en cuyo caso no se duplica. Los
+kanji heredados de versiones previas que no aparecen en la referencia (分 y 挨) se conservan, por lo que los
+ficheros contienen 2.213 entradas (110 N5, 201 N4, 335 N3, 346 N2, 1.221 N1). Los datos de cada kanji (lecturas
+`on`/`kun`, trazos y significados en español) se toman del diccionario KANJIDIC2 (EDRDG).
 
-**Razón:** Garantiza que las listas sean las oficiales de cada nivel y que lecturas, trazos y significados sean
-correctos y coherentes.
+**Razón:** Garantiza que las listas oficiales de cada nivel estén íntegras en la aplicación y que lecturas, trazos
+y significados sean correctos y coherentes, sin duplicar kanji entre niveles.
 
 ### D-5 — Persistencia limitada a la posición
 
@@ -67,13 +70,15 @@ main.js
       ├── KanjiStore (useKanjiStore)
       │    ├── kanjis: Ref<Array>
       │    ├── posicion: Ref<number>
-      │    └── actual: Computed (con clamping)
+      │    ├── nivel: Ref<'todos' | 'n5'…'n1'>
+      │    ├── aleatorio: Ref<boolean>
+      │    └── actual: Computed (filtrado por nivel, clamping y modo aleatorio)
       │         └── KanjiCard (:tarjeta="actual")
       │              ├── VisualizarArray (:datos="tarjeta.kun")
       │              ├── VisualizarArray (:datos="tarjeta.on")
       │              └── VisualizarArray (:datos="tarjeta.significados")
       └── controles de navegación
-           └── KanjiStore (avanzar/retroceder)
+           └── KanjiStore (avanzar/retroceder/seleccionarNivel/alternarAleatorio)
 ```
 
 ### 3.2. Responsabilidades
@@ -107,14 +112,17 @@ main.js
 
 - `kanjis`: array ordenado de objetos.
 - `posicion`: índice numérico actual.
+- `nivel`: `'todos'` o nivel (`'n5'`…`'n1'`); la secuencia visible se filtra por nivel.
+- `aleatorio`: booleano que activa la selección aleatoria al avanzar/retroceder.
 
 ### 4.3. Invariantes
 
-- `0 <= posicion <= kanjis.length - 1` en todo momento.
+- `0 <= posicion <= kanjisDelNivel.length - 1` en todo momento.
 - Las acciones de avance/retroceso aplican clamping.
 - No hay kanji duplicados dentro de un fichero ni entre ficheros.
 - Los `id` son secuenciales en la secuencia combinada (N5 → N4 → N3 → N2 → N1).
 - Cada entrada tiene `trazos` > 0 y al menos un significado.
+- `kun`/`on` pueden estar vacíos (el kanji no tiene esa lectura autónoma); la UI no renderiza bloques vacíos.
 
 ## 5. Flujo de aplicación
 
@@ -132,3 +140,5 @@ main.js
 
 - Falta de tests automatizados (ver tasks).
 - Acoplamiento inicial entre layout y lógica de navegación (a evaluar en futuras refactors).
+- Los 2.213 kanji incrustados en el bundle elevan su tamaño (~458 KB JS / ~125 KB gzip); de cara al futuro,
+evaluar cargar los niveles bajo demanda.
